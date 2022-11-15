@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kerwinthompson/static/css/main.a7587259.chunk.css",
-    "main.js": "/kerwinthompson/static/js/main.1e96ee5b.chunk.js",
+    "main.js": "/kerwinthompson/static/js/main.6deb99d2.chunk.js",
     "runtime-main.js": "/kerwinthompson/static/js/runtime-main.662e9f94.js",
     "static/css/2.93249118.chunk.css": "/kerwinthompson/static/css/2.93249118.chunk.css",
     "static/js/2.565c38d5.chunk.js": "/kerwinthompson/static/js/2.565c38d5.chunk.js",
@@ -16,6 +16,6 @@
     "static/css/2.93249118.chunk.css",
     "static/js/2.565c38d5.chunk.js",
     "static/css/main.a7587259.chunk.css",
-    "static/js/main.1e96ee5b.chunk.js"
+    "static/js/main.6deb99d2.chunk.js"
   ]
 }
