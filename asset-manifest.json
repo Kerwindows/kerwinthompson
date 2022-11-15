@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kerwinthompson/static/css/main.a7587259.chunk.css",
+    "main.js": "/kerwinthompson/static/js/main.9e23fdc5.chunk.js",
+    "runtime-main.js": "/kerwinthompson/static/js/runtime-main.fd7490b3.js",
+    "static/css/2.93249118.chunk.css": "/kerwinthompson/static/css/2.93249118.chunk.css",
+    "static/js/2.37d03ec4.chunk.js": "/kerwinthompson/static/js/2.37d03ec4.chunk.js",
+    "static/js/3.a4112f0c.chunk.js": "/kerwinthompson/static/js/3.a4112f0c.chunk.js",
+    "static/js/4.c10adf54.chunk.js": "/kerwinthompson/static/js/4.c10adf54.chunk.js",
+    "index.html": "/kerwinthompson/index.html",
+    "static/js/2.37d03ec4.chunk.js.LICENSE.txt": "/kerwinthompson/static/js/2.37d03ec4.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/kerwinthompson/static/media/et-line.d59b2385.woff",
+    "static/media/slick-theme.css": "/kerwinthompson/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fd7490b3.js",
+    "static/css/2.93249118.chunk.css",
+    "static/js/2.37d03ec4.chunk.js",
+    "static/css/main.a7587259.chunk.css",
+    "static/js/main.9e23fdc5.chunk.js"
+  ]
+}
