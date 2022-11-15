@@ -10,7 +10,7 @@ export default function Tags() {
       <Link to="/blog-post-5">Web Design</Link>
       <Link to="/blog-post-2">Marketing</Link>
       <Link to="/blog-post-3">Research</Link>
-      <Link to="/blog-post-6">Managment</Link>
+      <Link to="/blog-post-6">Management</Link>
     </div>
   );
 }
