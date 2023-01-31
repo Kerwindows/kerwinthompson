@@ -87,7 +87,7 @@ const Slider = () => {
                 >
                   <a
                     className="px-btn px-btn-white"
-                    href="file/kerwin_thompson_resume-2022.docx"
+                    href="file/kerwin_thompson_resume.docx"
                     download
                   >
                     {sliderContent.btnText}
