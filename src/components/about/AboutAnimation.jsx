@@ -1,14 +1,44 @@
 import React from "react";
 import Social from "../Social";
 import Testimonials from "../testimonial/TestimonialAnimation";
-import Services from "../service/ServiceAnimation";
 import Awards from "../award/AwardsAnimation";
+import kerwin from "../../assets/img/about/kerwin.jpg";
 
 const About = () => {
   return (
     <>
       <section id="about" className="section theme-light dark-bg">
         <div className="container">
+          {/* End separated */}
+
+          {/* <div className="title">
+            <h3>Awards.</h3>
+          </div> */}
+
+          {/* <Awards /> */}
+          {/* End Awards */}
+
+          {/* separated */}
+          <div
+            className="separated"
+            style={{
+              backgroundImage: `url(img/border-dark.png)`,
+            }}
+          ></div>
+          {/* End separated */}
+
+          <div className="title">
+            <h3>Testimonials.</h3>
+          </div>
+
+          <Testimonials />
+          {/* End Testimonaial */}
+          <div
+            className="separated"
+            style={{
+              backgroundImage: `url(img/border-dark.png)`,
+            }}
+          ></div>
           <div className="row align-items-center justify-content-center">
             <div
               className="col-md-6 col-lg-4"
@@ -18,7 +48,7 @@ const About = () => {
               <div className="about-me">
                 <div className="img">
                   <div className="img-in">
-                    <img src="img/about/kerwin.png" alt="about" />
+                    <img src={`${kerwin}`} alt="about" />
                   </div>
 
                   <Social />
@@ -95,7 +125,7 @@ const About = () => {
                         </li>
                         <li>
                           <label>Email: </label>
-                          <span>info@domainname.com</span>
+                          <span>kerwindows@gmail.com</span>
                         </li>
                         <li>
                           <label>GitHub: </label>
@@ -115,54 +145,6 @@ const About = () => {
           </div>
 
           {/* separated */}
-
-          <div
-            className="separated"
-            style={{
-              backgroundImage: `url(img/border-dark.png)`,
-            }}
-          ></div>
-
-          {/* End separated */}
-          <div className="title">
-            <h3>What I do?</h3>
-          </div>
-
-          <Services />
-
-          {/* End .row */}
-
-          {/* separated */}
-          <div
-            className="separated"
-            style={{
-              backgroundImage: `url(img/border-dark.png)`,
-            }}
-          ></div>
-          {/* End separated */}
-
-          <div className="title">
-            <h3>Awards.</h3>
-          </div>
-
-          <Awards />
-          {/* End Awards */}
-
-          {/* separated */}
-          <div
-            className="separated"
-            style={{
-              backgroundImage: `url(img/border-dark.png)`,
-            }}
-          ></div>
-          {/* End separated */}
-
-          <div className="title">
-            <h3>Testimonials.</h3>
-          </div>
-
-          <Testimonials />
-          {/* End Testimonaial */}
         </div>
       </section>
     </>

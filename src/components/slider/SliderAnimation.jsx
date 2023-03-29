@@ -1,5 +1,6 @@
 import React from "react";
 import TextLoop from "react-text-loop";
+import kerwin from "../../assets/img/slider/kerwin.png";
 
 const conctInfo = {
   phone: "+1 786 679 6542",
@@ -19,11 +20,7 @@ const Slider = () => {
   return (
     <>
       {/*  Home Banner */}
-      <section
-        style={{ background: "#e9e6ed" }}
-        id="home"
-        className="home-banner"
-      >
+      <section style={{ background: "#000" }} id="home" className="home-banner">
         <div className="hb-top-fixed d-flex">
           <div className="hb-info">
             <a href="tel:+17866796542">{conctInfo.phone}</a>
@@ -66,8 +63,8 @@ const Slider = () => {
                 >
                   <TextLoop>
                     <p className="loop-text lead">Full-stack Developer</p>
-                    <p className="loop-text lead">UI/UX Designer</p>
-                    <p className="loop-text lead">Web App Developer</p>
+                    <p className="loop-text lead">Frontend Deeloper</p>
+                    <p className="loop-text lead">Web Application Developer</p>
                   </TextLoop>
                 </div>
 
@@ -87,7 +84,7 @@ const Slider = () => {
                 >
                   <a
                     className="px-btn px-btn-white"
-                    href="file/kerwin_thompson_resume.docx"
+                    href="file/Kerwin-Thompson-Resume.docx"
                     download
                   >
                     {sliderContent.btnText}
@@ -98,12 +95,16 @@ const Slider = () => {
           </div>
         </div>
         {/* End Container*/}
+        {/* <Tilt> */}
         <div
           className="hb-me"
           style={{
-            backgroundImage: `url(img/slider/kerwin.jpg)`,
+            backgroundImage: `url(${kerwin})`,
+            //height: "1000px",
+            // top: "-750px",
           }}
         ></div>
+        {/* </Tilt> */}
       </section>
 
       {/* End Home Banner  */}

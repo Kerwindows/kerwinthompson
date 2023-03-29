@@ -2,22 +2,21 @@ import React from "react";
 // import Preview from "../views/Preview";
 // import LightProfessionalAnimation from "../views/all-home-version/LightProfessionalAnimation";
 // import HomeLightProfessional2 from "../views/all-home-version/HomeLightProfessional2";
-import HomeLightAnimation from "../views/all-home-version/HomeLightAnimation";
+// import HomeLightAnimation from "../views/all-home-version/HomeLightAnimation";
 // import HomeLightRtlAnimation from "../views/all-home-version/HomeLightRtlAnimation";
 // import HomeDarkParticles from "../views/all-home-version/HomeDarkParticles";
-// import HomeDarkAnimation from "../views/all-home-version/HomeDarkAnimation";
+import HomeDarkAnimation from "../views/all-home-version/HomeDarkAnimation";
 import NotFound from "../views/NotFound";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import ScrollTopBehaviour from "../components/ScrollTopBehaviour";
 
-const Routes = () => {
+const AllRoutes = () => {
   return (
     <>
-      <Router>
-        <ScrollTopBehaviour />
-        <Switch>
-          <Route exact path="/kerwinthompson" component={HomeLightAnimation} />
-          {/* <Route path="/home-light-animation" component={HomeLightAnimation} />
+      <ScrollTopBehaviour />
+      <Routes>
+        <Route path="/kerwinthompson" element={<HomeDarkAnimation />} />
+        {/* <Route path="/home-light-animation" component={HomeLightAnimation} />
           <Route
             path="/home-light-rtl-animation"
             component={HomeLightRtlAnimation}
@@ -32,11 +31,10 @@ const Routes = () => {
             component={HomeLightProfessional2}
           />
           <Route path="/home-dark-animation" component={HomeDarkAnimation} /> */}
-          <Route component={NotFound} />
-        </Switch>
-      </Router>
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </>
   );
 };
 
-export default Routes;
+export default AllRoutes;

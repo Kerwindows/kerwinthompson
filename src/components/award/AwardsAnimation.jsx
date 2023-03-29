@@ -1,20 +1,23 @@
 import React from "react";
+import a1 from "../../assets/img/award/a1.png";
+import a2 from "../../assets/img/award/a2.png";
+import a3 from "../../assets/img/award/a3.png";
 
 const AwardContnet = [
   {
-    img: "a1",
+    img: a1,
     awardName: "1st Class Honours",
     awardFor: "Outstanding Performance",
     delayAnimation: "0",
   },
   {
-    img: "a2",
+    img: a2,
     awardName: "Problem Solver",
     awardFor: "Critical Thinker",
     delayAnimation: "200",
   },
   {
-    img: "a3",
+    img: a3,
     awardName: "Top Perfomer",
     awardFor: "Leadership & Integrity",
     delayAnimation: "400",
@@ -35,7 +38,7 @@ const Awards = () => {
           >
             <div className="feature-box-02 d-flex align-items-center">
               <div className="icon">
-                <img src={`img/award/${val.img}.png`} alt="award" />
+                <img src={`${val.img}`} alt="award" />
               </div>
               <div className="media-body">
                 <h6>{val.awardName}</h6>

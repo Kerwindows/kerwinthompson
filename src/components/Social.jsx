@@ -5,7 +5,7 @@ import {
   FaInstagram,
   FaLinkedinIn,
   FaWhatsapp,
-  FaGithubAlt
+  FaGithubAlt,
 } from "react-icons/fa";
 
 const SocialShare = [
@@ -13,7 +13,7 @@ const SocialShare = [
   { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/in/kerwindows/" },
   { Social: <FaInstagram />, link: "https://www.instagram.com/kerwindows" },
   { Social: <FaGithubAlt />, link: "https://github.com/kerwindows" },
-  { Social: <FaWhatsapp />, link: "https://www.pinterest.com/" },
+  { Social: <FaWhatsapp />, link: "https://wa.me/message/R4FYYAOFBHAWL1" },
 ];
 
 const Social = () => {

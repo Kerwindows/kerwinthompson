@@ -5,26 +5,41 @@ const resumeContent = [
   {
     jobPosition: `Sr. Full-Stack Engineer`,
     jobType: `Cyversify Limited | Remote`,
-    jobDuration: `Mar 2020 - Present`,
+    jobDuration: `2020 - Present`,
     timeDuraton: `Part Time`,
     compnayName: "Cyversify",
-    jobDescription: `Spareheaded the UX design and development of a PWA travel application for start-up company Checkin Cyversify in tandem with an NFC ready digital business card web app using PHP, Javascript and Ajax. During this time I was able to acquire my initial first-hand experience as a senior software developer. I was able to improve company standardization for quality assurance to the end user. Evaluate and prioritize development stages to meet deadlines for real time implementation. Developed stronger interpersonal, written, and oral communication.`,
+    jobDescription: `I spearheaded the UX design and development of a Progressive Web App (PWA) travel application for the startup company, Checkin Cyversify. Following the project's completion, I continued to contribute to two other major applications: a social networking web app integrated with an NFC-enabled digital business card using VCard technology, and a School Information Management Application. During this time, I employed technologies such as PHP, JavaScript, Ajax, and SQL.
+
+    This experience allowed me to gain invaluable hands-on expertise as a senior software developer and pursue a software development certification. This certification enabled me to enhance the company's standardization for quality assurance, ensuring an optimal experience for end users. Furthermore, I honed my skills in evaluating and prioritizing development stages to meet real-time implementation deadlines. As a result, my interpersonal, written, and oral communication skills have significantly improved.`,
   },
+
   {
-    jobPosition: `Front-End Developer`,
-    jobType: `Web Developer | Remote`,
-    jobDuration: `Sep 2016 - Present`,
-    timeDuraton: `Full Time`,
-    compnayName: "Kerjem Marketing Technologies",
-    jobDescription: `Developed a native WordPress plugin for Elegant Themes Divi Theme that uses CSS to manipulates the HTML DOM for mobile devices, making it fully customizible to the front end designer. Created documentation and licenscing feature to enable installation and upadtes. Worked closely with design team in creating layouts supported by the plugin. Resolve client issues via remote desktop support.`,
-  },
-  {
-    jobPosition: `Teacher / Systems Adminstrator`,
-    jobType: `Desktop Support | Remote`,
-    jobDuration: `August 2010 - 2020`,
+    jobPosition: `Systems Adminstrato`,
+    jobType: `Tech Support | Remote`,
+    jobDuration: `Sep 2019 - Current`,
     timeDuraton: `Part Time`,
     compnayName: "Caribbean Union College",
-    jobDescription: `Bridged the gap between education and IT support. Connected with faculty and staff to create a strong relationship between departments for overall increased computer literacy and connectivity. Oversee the school’s web-based infrastructure and develop programs that benefit students, faculty, and staff. Promoted digital bookkeeping, registration, and scheduling for increased productivity and drastically reduced waste. Active change agent directing the college toward web-based solutions and e-learning strategies.`,
+    jobDescription: `In my current role, I am responsible for a wide range of web-related activities, including technical and desktop support, as well as managing our social media pages. My primary focus is to propose innovative solutions that leverage software for development, enabling us to optimize our eLearning platform and other applications. I closely monitor the backend of our eLearning platform to ensure that student records and courses remain accurate and up-to-date. Additionally, I am involved in the development, refactoring, and deployment of our school's database application, which allows us to maintain a streamlined and efficient system for managing vital information.`,
+  },
+  {
+    jobPosition: `WordPress Developer`,
+    jobType: `Freelance | Remote`,
+    jobDuration: `Sep 2019 - 2020`,
+    timeDuraton: `Part Time`,
+    compnayName: "Kerjem Marketing Technologies",
+    jobDescription: `As an independant contactor, I successfully developed a native WordPress plugin specifically tailored for the Elegant Themes Divi Theme. This plugin leverages CSS to manipulate the HTML DOM on mobile devices, offering full customization to front-end designers. Along the way, I acquired valuable skills in plugin development, CSS manipulation, and HTML DOM adjustments. Furthermore, I created comprehensive documentation and implemented a licensing feature to facilitate seamless plugin installation and updates. Collaborating closely with the design team, I ensured the plugin supported various layouts, thereby enhancing its overall versatility. My expertise in providing remote desktop support enabled me to efficiently resolve client issues and maintain a high level of customer satisfaction.`,
+  },
+  {
+    jobPosition: `IT Adminstrator`,
+    jobType: `Desktop Support | On-site`,
+    jobDuration: `August 2016 - 2019`,
+    timeDuraton: `Full Time`,
+    compnayName: "Caribbean Union College",
+    jobDescription: `Effectively bridged the gap between education and IT support by fostering strong relationships between faculty, staff, and the IT department. This collaboration led to improved computer literacy and connectivity across all departments. Along the way, I acquired valuable skills in communication, cross-functional teamwork, and digital transformation.
+
+    As part of my responsibilities, I oversaw the school's web-based infrastructure and developed programs that benefited students, faculty, and staff alike. I successfully implemented digital bookkeeping, registration, and scheduling systems, which not only increased productivity but also significantly reduced waste.
+    
+    As an active change agent, I guided the college towards embracing web-based solutions and e-learning strategies, keeping the institution at the forefront of educational technology and ensuring a modern, efficient learning environment for all..`,
   },
 ];
 

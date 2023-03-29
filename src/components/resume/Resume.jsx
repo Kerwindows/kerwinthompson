@@ -3,28 +3,29 @@ import Skills from "../skills/Skills";
 
 const resumeContent = [
   {
-    jobPosition: `Sr. Full-Stack Engineer`,
+    jobPosition: `Software Engineer`,
     jobType: `Cyversify Limited | Remote`,
     jobDuration: `Mar 2020 - Present`,
     timeDuraton: `Part Time`,
-    compnayName: "Cyversify",
+    compnayName: "Cyversify Ltd",
     jobDescription: `Spareheaded the UX design and development of a PWA travel application for start-up company Checkin Cyversify in tandem with an NFC ready digital business card web app using PHP, Javascript and Ajax. During this time I was able to acquire my initial first-hand experience as a senior software developer. I was able to improve company standardization for quality assurance to the end user. Evaluate and prioritize development stages to meet deadlines for real time implementation. Developed stronger interpersonal, written, and oral communication.`,
   },
+
   {
-    jobPosition: `Front-End Developer`,
-    jobType: `Web Developer | Remote`,
-    jobDuration: `Sep 2016 - Present`,
-    timeDuraton: `Full Time`,
-    compnayName: "Kerjem Marketing Technologies",
-    jobDescription: `Developed a native WordPress plugin for Elegant Themes Divi Theme that uses CSS to manipulates the HTML DOM for mobile devices, making it fully customizible to the front end designer. Created documentation and licenscing feature to enable installation and upadtes. Worked closely with design team in creating layouts supported by the plugin. Resolve client issues via remote desktop support.`,
-  },
-  {
-    jobPosition: `Teacher / Systems Adminstrator`,
-    jobType: `Desktop Support | Remote`,
-    jobDuration: `August 2010 - 2020`,
+    jobPosition: `Systems Adminstrator`,
+    jobType: `Desktop Support`,
+    jobDuration: `August 2016 - Present`,
     timeDuraton: `Part Time`,
     compnayName: "Caribbean Union College",
     jobDescription: `Bridged the gap between education and IT support. Connected with faculty and staff to create a strong relationship between departments for overall increased computer literacy and connectivity. Oversee the school’s web-based infrastructure and develop programs that benefit students, faculty, and staff. Promoted digital bookkeeping, registration, and scheduling for increased productivity and drastically reduced waste. Active change agent directing the college toward web-based solutions and e-learning strategies.`,
+  },
+  {
+    jobPosition: `Front-End Developer`,
+    jobType: `Web Developer`,
+    jobDuration: `Sep 2016 - 2019`,
+    timeDuraton: `Full Time`,
+    compnayName: "Kpdelamp LLC",
+    jobDescription: `Developed a native WordPress plugin for Elegant Themes Divi Theme that uses CSS to manipulates the HTML DOM for mobile devices, making it fully customizible to the front end designer. Created documentation and licenscing feature to enable installation and upadtes. Worked closely with design team in creating layouts supported by the plugin. Resolve client issues via remote desktop support.`,
   },
 ];
 

@@ -3,6 +3,7 @@ import Header from "../../components/header/Header";
 import Slider from "../../components/slider/SliderAnimation";
 import About from "../../components/about/AboutAnimation";
 import Resume from "../../components/resume/ResumeAnimation";
+import Services from "../../components/service/ServiceAnimation";
 import Portfolio from "../../components/portfolio/PortfolioAnimation";
 import Blog from "../../components/blog/BlogAnimation";
 import Contact from "../../components/contact/Contact";
@@ -20,12 +21,18 @@ const HomeOne = () => {
 
       <Slider />
       {/* End Slider Section */}
+      <div className="container">
+        <div className="title">
+          <h3>What I do?</h3>
+        </div>
 
-      <About />
-      {/* End About Section */}
+        <Services />
 
-      <Resume />
-      {/* End Resume Section */}
+        {/* End .row */}
+
+        {/* separated */}
+      </div>
+      {/* End separated */}
 
       <section id="work" className="section theme-light dark-bg">
         <div className="container">
@@ -37,15 +44,21 @@ const HomeOne = () => {
       </section>
       {/* End Portfolio Section */}
 
-      <section id="blog" className="section">
+      <Resume />
+      {/* End Resume Section */}
+
+      {/* <section id="blog" className="section">
         <div className="container">
           <div className="title">
             <h3>Latest Blog.</h3>
           </div>
           <Blog />
         </div>
-      </section>
+      </section> */}
       {/* End Portfolio Section */}
+
+      <About />
+      {/* End About Section */}
 
       <section id="contactus" className="section theme-light dark-bg">
         <div className="container">

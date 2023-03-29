@@ -1,7 +1,7 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import SimpleReactLightbox from "simple-react-lightbox";
-import { SRLWrapper } from "simple-react-lightbox";
+import { Gallery, Item } from "react-photoswipe-gallery";
+import "photoswipe/dist/photoswipe.css";
 import { FiLink } from "react-icons/fi";
 import Masonry from "react-masonry-css";
 
@@ -261,48 +261,46 @@ const tabListContent = [
 
 const Portfolio = () => {
   return (
-    <SimpleReactLightbox>
-      <div className="portfolio-filter-01">
-        <Tabs>
-          <TabList className="filter d-flex flex-wrap justify-content-start">
-            {tabList.map((val, i) => (
-              <Tab key={i}>{val}</Tab>
-            ))}
-          </TabList>
-          {/* End tablist */}
-
-          <SRLWrapper>
-            {tabListContent.map((tabContent, i) => (
-              <TabPanel key={i}>
-                <div className="portfolio-content ">
-                  <Masonry
-                    breakpointCols={breakpointColumnsObj}
-                    className="my-masonry-grid"
-                    columnClassName="my-masonry-grid_column"
-                  >
-                    {tabContent.portfolioItems.map((val, i) => (
-                      <div
-                        className="portfolio-box-01"
-                        key={i}
-                        data-aos="fade-right"
-                        data-aos-duration="1200"
-                        data-aos-delay={val.delayAnimation}
-                      >
-                        <div className="portfolio-img">
-                          <div className="portfolio-info">
-                            <h5>
-                              <a
-                                href={val.portfolioLink}
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                {val.title}
-                              </a>
-                            </h5>
-                            <span>{val.subTitle}</span>
-                          </div>
-                          {/* End .portfolio-info */}
-                          <a
+    <div className="portfolio-filter-01">
+      <Tabs>
+        <TabList className="filter d-flex flex-wrap justify-content-start">
+          {tabList.map((val, i) => (
+            <Tab key={i}>{val}</Tab>
+          ))}
+        </TabList>
+        {/* End tablist */}
+        <Gallery>
+          {tabListContent.map((tabContent, i) => (
+            <TabPanel key={i}>
+              <div className="portfolio-content ">
+                <Masonry
+                  breakpointCols={breakpointColumnsObj}
+                  className="my-masonry-grid"
+                  columnClassName="my-masonry-grid_column"
+                >
+                  {tabContent.portfolioItems.map((val, i) => (
+                    <div
+                      className="portfolio-box-01"
+                      key={i}
+                      data-aos="fade-right"
+                      data-aos-duration="1200"
+                      data-aos-delay={val.delayAnimation}
+                    >
+                      <div className="portfolio-img">
+                        <div className="portfolio-info">
+                          <h5>
+                            <a
+                              href={val.portfolioLink}
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              {val.title}
+                            </a>
+                          </h5>
+                          <span>{val.subTitle}</span>
+                        </div>
+                        {/* End .portfolio-info */}
+                        {/* <a
                             href={`img/portfolio/${val.img}.jpg`}
                             className="gallery-link"
                           >
@@ -310,30 +308,42 @@ const Portfolio = () => {
                               src={`img/portfolio/${val.img}.jpg`}
                               alt={val.alterText}
                             />
-                          </a>
-                          {/* End gallery link */}
-                          <a
-                            className="portfolio-icon"
-                            href={val.portfolioLink}
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <FiLink />
-                          </a>
-                          {/* End .portfolio-icon */}
-                        </div>
+                          </a> */}
+                        <Item original={val.img} thumbnail={val.img}>
+                          {({ ref, open }) => (
+                            <div className="gallery-link">
+                              <img
+                                src={val.img}
+                                alt="Childhood"
+                                role="button"
+                                ref={ref}
+                                onClick={open}
+                              />
+                            </div>
+                          )}
+                        </Item>
+                        {/* End gallery link */}
+                        <a
+                          className="portfolio-icon"
+                          href={val.portfolioLink}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <FiLink />
+                        </a>
+                        {/* End .portfolio-icon */}
                       </div>
-                    ))}
-                  </Masonry>
-                </div>
-                {/* End list wrapper */}
-              </TabPanel>
-            ))}
-          </SRLWrapper>
-          {/* End tabpanel */}
-        </Tabs>
-      </div>
-    </SimpleReactLightbox>
+                    </div>
+                  ))}
+                </Masonry>
+              </div>
+              {/* End list wrapper */}
+            </TabPanel>
+          ))}
+        </Gallery>
+        {/* End tabpanel */}
+      </Tabs>
+    </div>
   );
 };
 

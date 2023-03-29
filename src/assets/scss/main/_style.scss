@@ -84,7 +84,7 @@
 .home-banner {
   position: relative;
   overflow: hidden;
-  
+
   .container {
     position: relative;
     z-index: 1;
@@ -315,11 +315,17 @@
     max-height: 358px;
     margin: auto;
     overflow: hidden;
+    filter: grayscale(100%) brightness(0.4);
     border: 5px solid $px-white;
+    transition: 0.3s;
     .theme-light & {
       border: 5px solid $px-theme;
     }
+    &:hover {
+      filter: grayscale(0%) brightness(1);
+    }
   }
+
   .img {
     position: relative;
   }
