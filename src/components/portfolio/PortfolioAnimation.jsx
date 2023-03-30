@@ -4,6 +4,32 @@ import { Gallery, Item } from "react-photoswipe-gallery";
 import "photoswipe/dist/photoswipe.css";
 import { FiLink } from "react-icons/fi";
 import Masonry from "react-masonry-css";
+import checkinApp from "../../assets/img/portfolio/checkin-app.jpg";
+import cucedutt from "../../assets/img/portfolio/cuc.edu.tt.jpg";
+import dmf from "../../assets/img/portfolio/dmf.jpg";
+import estoreWearPositive from "../../assets/img/portfolio/estore-wearpositive.jpg";
+import linkwiPreview from "../../assets/img/portfolio/linkwi-preview.jpg";
+import aroundTheReact from "../../assets/img/portfolio/around-react.jpg";
+import linkwiKerwin from "../../assets/img/portfolio/linkwi-kerwin.jpg";
+import linkwiKerwinEdit from "../../assets/img/portfolio/linkwi-kerwin-edit.jpg";
+import linkwiKerwinEditLinks from "../../assets/img/portfolio/linkwi-kerwin-edit-links.jpg";
+import linkwiBackend from "../../assets/img/portfolio/linkwi-backend.jpg";
+import linkwiStats from "../../assets/img/portfolio/linkwi-stats.jpg";
+import linkiwLinksHistory from "../../assets/img/portfolio/linkwi-links-history.jpg";
+import checkinMenu from "../../assets/img/portfolio/checkin-menu.jpg";
+import checkinttTaxiDriver from "../../assets/img/portfolio/checkin-tt-taxi-driver.jpg";
+import checkinttProfilepage from "../../assets/img/portfolio/checkin-tt-profilepage.jpg";
+import checkinMapPage from "../../assets/img/portfolio/checkin-map-page.jpg";
+import checkinTaxiPage from "../../assets/img/portfolio/checkin-taxi-page.jpg";
+import checkinttLandingPage from "../../assets/img/portfolio/checkin-tt-landing-page.jpg";
+import estoreShopPage from "../../assets/img/portfolio/estore-shop-page.jpg";
+import ecommerceStoreCustomTshirt from "../../assets/img/portfolio/ecommerce-store-custom-tshirt.jpg";
+import ecommerceStoreKidSweater from "../../assets/img/portfolio/ecommerce-store-kid-sweater.jpg";
+import scanCheckinSiteSettings from "../../assets/img/portfolio/scan-checkin-site-settings.jpg";
+import scanCheckinCuc from "../../assets/img/portfolio/scan-checkin-cuc.jpg";
+import scanCheckinSstaff from "../../assets/img/portfolio/scan-checkin-staff.jpg";
+import cucScancheckinClassroom from "../../assets/img/portfolio/cuc-scancheckin-classroom.jpg";
+import cucScancheckin from "../../assets/img/portfolio/cuc-scancheckin.jpg";
 
 const breakpointColumnsObj = {
   default: 3,
@@ -24,7 +50,9 @@ const tabListContent = [
     portfolioItems: [
       //all
       {
-        img: "checkin-app",
+        img: checkinApp,
+        width: 400,
+        height: 550,
         title: "Checkin TT",
         subTitle: "Profile page",
         alterText: "PHP/ Ajax application",
@@ -32,7 +60,9 @@ const tabListContent = [
         portfolioLink: "https://projectone.cyversify.com/",
       },
       {
-        img: "cuc.edu.tt",
+        img: cucedutt,
+        width: 400,
+        height: 550,
         title: "Caribbean Union College Secondary School",
         subTitle: "student Database Landing Page",
         alterText: "Front-end landing page built with WordPress",
@@ -41,7 +71,7 @@ const tabListContent = [
       },
 
       {
-        img: "dmf",
+        img: dmf,
         title: "Divi Mobi First",
         subTitle: "My personal PWordPRess Plugin",
         alterText: "Built with Divi Theme for WordPress",
@@ -49,7 +79,7 @@ const tabListContent = [
         portfolioLink: "http://estore.kerwindows.com/shop.php",
       },
       {
-        img: "estore-wearpositive",
+        img: estoreWearPositive,
         title: "Ecommerce Clothing Store",
         subTitle: "Built with PHP and JavaScript",
         alterText: "E-store landing page. Built since 2018",
@@ -57,7 +87,7 @@ const tabListContent = [
         portfolioLink: "http://estore.kerwindows.com/",
       },
       {
-        img: "linkwi-preview",
+        img: linkwiPreview,
         title: "Linkwi NFC Business Card",
         subTitle: "Linkwi profile",
         alterText: "Built with Vanilla JavaScript and jQuery",
@@ -65,7 +95,7 @@ const tabListContent = [
         portfolioLink: "https://linkwi.co/card/chleo",
       },
       {
-        img: "around-theius",
+        img: aroundTheReact,
         title: "Around the US",
         subTitle: "Share images from around the US",
         alterText: "Build with ReactJS. Hosted on GitHub",
@@ -78,7 +108,7 @@ const tabListContent = [
     portfolioItems: [
       //linkwi
       {
-        img: "linkwi-kerwin",
+        img: linkwiKerwin,
         title: "Linkwi Web Application",
         subTitle: "Linkwi Web Application",
         alterText: "Click link to view profile page",
@@ -86,7 +116,7 @@ const tabListContent = [
         portfolioLink: "https://linkwi.co/card/kerwinthompson",
       },
       {
-        img: "linkwi-kerwin-edit",
+        img: linkwiKerwinEdit,
         title: "My Linkwi profile",
         subTitle: "Edit profile page",
         alterText: "Click link to view profile page",
@@ -94,7 +124,7 @@ const tabListContent = [
         portfolioLink: "https://linkwi.co/card/kerwinthompson",
       },
       {
-        img: "linkwi-kerwin-edit-links",
+        img: linkwiKerwinEditLinks,
         title: "My Linkwi profile",
         subTitle: "Edit  my project links",
         alterText: "Click link to view profile page example",
@@ -102,7 +132,7 @@ const tabListContent = [
         portfolioLink: "https://linkwi.co/card/kerwinthompson",
       },
       {
-        img: "linkwi-backend",
+        img: linkwiBackend,
         title: "Backend profile edit",
         subTitle: "Linkwi Web Application",
         alterText: "Click link for demo",
@@ -110,7 +140,7 @@ const tabListContent = [
         portfolioLink: "https://youtu.be/2jUaGwwnA7E",
       },
       {
-        img: "linkwi-stats",
+        img: linkwiStats,
         title: "View social stats",
         subTitle: "Linkwi statistics dashboard",
         alterText: "Click link for demo",
@@ -118,7 +148,7 @@ const tabListContent = [
         portfolioLink: "https://youtu.be/2jUaGwwnA7E",
       },
       {
-        img: "linkiw-links-history",
+        img: linkiwLinksHistory,
         title: "View link click stats",
         subTitle: "Linkwi statistics dashboard",
         alterText: "Click link for demo",
@@ -130,7 +160,7 @@ const tabListContent = [
   {
     portfolioItems: [
       {
-        img: "checkin-menu",
+        img: checkinMenu,
         title: "Chatting Application",
         subTitle: "Codecanyon Market",
         alterText: "Bottle Illustration",
@@ -138,7 +168,7 @@ const tabListContent = [
         portfolioLink: "https://projectone.cyversify.com/",
       },
       {
-        img: "checkintt-taxt-driver",
+        img: checkinttTaxiDriver,
         title: "Web Application",
         subTitle: "Behance Shot",
         alterText: "Web Application",
@@ -146,7 +176,7 @@ const tabListContent = [
         portfolioLink: "https://projectone.cyversify.com/",
       },
       {
-        img: "checkingtt-profilepage",
+        img: checkinttProfilepage,
         title: "Web Application",
         subTitle: "Behance Shot",
         alterText: "Web Application",
@@ -155,7 +185,7 @@ const tabListContent = [
       },
       {
         //Checkin TT
-        img: "checkin-map-page",
+        img: checkinMapPage,
         title: "E-Learning App",
         subTitle: "Nuna ios App",
         alterText: "Illustration",
@@ -164,7 +194,7 @@ const tabListContent = [
       },
 
       {
-        img: "checkin-taxi-page",
+        img: checkinTaxiPage,
         title: "Web Application",
         subTitle: "Behance Shot",
         alterText: "Web Application",
@@ -172,7 +202,7 @@ const tabListContent = [
         portfolioLink: "https://projectone.cyversify.com/",
       },
       {
-        img: "checkintt-landing-page",
+        img: checkinttLandingPage,
         title: "Web Application",
         subTitle: "Behance Shot",
         alterText: "Web Application",
@@ -185,16 +215,15 @@ const tabListContent = [
     portfolioItems: [
       //school database
       {
-        img: "cuc-scancheckin-classroom",
+        img: cucScancheckinClassroom,
         title: "Classroom Statistics",
         subTitle: "Student Management",
         alterText: "Click link for demo",
         delayAnimation: "",
         portfolioLink: "https://youtu.be/T33ovXlQPVI",
       },
-
       {
-        img: "cuc-scancheckin",
+        img: cucScancheckin,
         title: "Human Resource Management",
         subTitle: "Student Profile",
         alterText: "Click link for demo",
@@ -202,7 +231,7 @@ const tabListContent = [
         portfolioLink: "https://youtu.be/T33ovXlQPVI",
       },
       {
-        img: "scancheckin-site-settings",
+        img: scanCheckinSiteSettings,
         title: "Human Resource Management",
         subTitle: "Site settings",
         alterText: "Click link for demo",
@@ -210,7 +239,7 @@ const tabListContent = [
         portfolioLink: "https://youtu.be/T33ovXlQPVI",
       },
       {
-        img: "scancheckin-cuc",
+        img: scanCheckinCuc,
         title: "Admin Dashboard",
         subTitle: "Compound Entry Dashboard",
         alterText: "Click link for demo",
@@ -218,7 +247,7 @@ const tabListContent = [
         portfolioLink: "https://youtu.be/T33ovXlQPVI",
       },
       {
-        img: "scan-checkin-staff",
+        img: scanCheckinSstaff,
         title: "Admin Dashboard",
         subTitle: "Compound Entry Dashboard",
         alterText: "Click link for demo",
@@ -231,7 +260,7 @@ const tabListContent = [
     portfolioItems: [
       //ecommerce
       {
-        img: "estore-shop-page",
+        img: estoreShopPage,
         title: "Ecommerce Store Shop Page",
         subTitle: "Shop page with filter",
         alterText: "Built with LAMP Stack with Vanilla JavaScript",
@@ -239,7 +268,7 @@ const tabListContent = [
         portfolioLink: "http://estore.kerwindows.com/shop.php",
       },
       {
-        img: "ecommerce-store-custom-t-shirt",
+        img: ecommerceStoreCustomTshirt,
         title: "Ecommerce Store",
         subTitle: "Create Your Own Custom T-Shirt",
         alterText: "Built with LAMP Stack with Vanilla JavaScript",
@@ -248,7 +277,7 @@ const tabListContent = [
       },
 
       {
-        img: "ecommerce-store-kid-sweater",
+        img: ecommerceStoreKidSweater,
         title: "Ecommerce Store",
         subTitle: "Product bundle",
         alterText: "Built with LAMP Stack with Vanilla JavaScript",
@@ -300,16 +329,13 @@ const Portfolio = () => {
                           <span>{val.subTitle}</span>
                         </div>
                         {/* End .portfolio-info */}
-                        {/* <a
-                            href={`img/portfolio/${val.img}.jpg`}
-                            className="gallery-link"
-                          >
-                            <img
-                              src={`img/portfolio/${val.img}.jpg`}
-                              alt={val.alterText}
-                            />
-                          </a> */}
-                        <Item original={val.img} thumbnail={val.img}>
+
+                        <Item
+                          original={val.img}
+                          thumbnail={val.img}
+                          width={val.width}
+                          height={val.height}
+                        >
                           {({ ref, open }) => (
                             <div className="gallery-link">
                               <img

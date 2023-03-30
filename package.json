@@ -27,6 +27,7 @@
     "react-tsparticles": "^1.43.1",
     "react-video-tag": "0.0.10",
     "react-visibility-sensor": "^5.1.1",
+    "react-wordcloud": "^1.2.7",
     "sass": "^1.57.1",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
