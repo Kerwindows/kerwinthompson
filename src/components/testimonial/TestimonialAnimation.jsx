@@ -34,7 +34,6 @@ export default function SimpleSlider() {
   };
 
   const TestimonilContent = [
-    
     {
       imageName: team_2,
       desc: `I would be happy to work with Kerwin at any time due to his exceptional attention to detail and strong work ethic. His reputation is of utmost importance to him, which is a testament to the quality of his work.`,
@@ -60,7 +59,7 @@ export default function SimpleSlider() {
       imageName: team_1,
       desc: `Kerwin was a fabulous student. He always pushed through the challenges and brought up good questions whenever he needed to clear his path. He's good enough that now he's going the extra mile and helping students as one of our senior students (effectively a TA).`,
       reviewerName: "Phoenix Eliot",
-      designation: "Full Stack Independent Contractor & Tutor",
+      designation: "Practicum Tutor",
       delayAnimation: "",
     },
   ];
