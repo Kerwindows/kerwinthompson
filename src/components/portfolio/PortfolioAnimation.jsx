@@ -5,17 +5,16 @@ import "photoswipe/dist/photoswipe.css";
 import { FiLink } from "react-icons/fi";
 import Masonry from "react-masonry-css";
 import checkinApp from "../../assets/img/portfolio/checkin-app.jpg";
-import cucedutt from "../../assets/img/portfolio/cuc.edu.tt.jpg";
-import dmf from "../../assets/img/portfolio/dmf.jpg";
+import cucedutt from "../../assets/img/portfolio/cuc.edu.tt.png";
+import dmf from "../../assets/img/portfolio/divimobifirst-landingpage.png";
 import estoreWearPositive from "../../assets/img/portfolio/estore-wearpositive.jpg";
 import linkwiPreview from "../../assets/img/portfolio/linkwi-preview.jpg";
-import aroundTheReact from "../../assets/img/portfolio/around-react.jpg";
-import linkwiKerwin from "../../assets/img/portfolio/linkwi-kerwin.jpg";
+import linkwiChleo from "../../assets/img/portfolio/linkwi-chleo.png";
 import linkwiKerwinEdit from "../../assets/img/portfolio/linkwi-kerwin-edit.jpg";
 import linkwiKerwinEditLinks from "../../assets/img/portfolio/linkwi-kerwin-edit-links.jpg";
-import linkwiBackend from "../../assets/img/portfolio/linkwi-backend.jpg";
-import linkwiStats from "../../assets/img/portfolio/linkwi-stats.jpg";
-import linkiwLinksHistory from "../../assets/img/portfolio/linkwi-links-history.jpg";
+import linkwiDashboard from "../../assets/img/portfolio/linkwi-dashboard.png";
+import linkwiDashboard2 from "../../assets/img/portfolio/linkwi-dashboard2.png";
+import linkwiDashboard3 from "../../assets/img/portfolio/linkwi-dashboard3.png";
 import checkinMenu from "../../assets/img/portfolio/checkin-menu.jpg";
 import checkinttTaxiDriver from "../../assets/img/portfolio/checkin-tt-taxi-driver.jpg";
 import checkinttProfilepage from "../../assets/img/portfolio/checkin-tt-profilepage.jpg";
@@ -30,6 +29,17 @@ import scanCheckinCuc from "../../assets/img/portfolio/scan-checkin-cuc.jpg";
 import scanCheckinSstaff from "../../assets/img/portfolio/scan-checkin-staff.jpg";
 import cucScancheckinClassroom from "../../assets/img/portfolio/cuc-scancheckin-classroom.jpg";
 import cucScancheckin from "../../assets/img/portfolio/cuc-scancheckin.jpg";
+import trailerViewFull from "../../assets/img/portfolio/trailer-view-full.png";
+import trailerViewDiscover from "../../assets/img/portfolio/trailer-view-discover.png";
+import trailerViewWick from "../../assets/img/portfolio/trailer-view-wick.png";
+import trailerViewHart from "../../assets/img/portfolio/trailer-view-hart.png";
+import trailerViewBoots from "../../assets/img/portfolio/trailer-view-boots.png";
+import trailerViewLuck from "../../assets/img/portfolio/trailer-view-luck.png";
+import trailerViewMobile from "../../assets/img/portfolio/trailer-view-mobile.png";
+import aroundReactLogin from "../../assets/img/portfolio/around-react-login.jpg";
+import aroundReactEditProfile from "../../assets/img/portfolio/around-react-editprofile.jpg";
+import aroundReact2 from "../../assets/img/portfolio/around-react2.jpg";
+import iamshurnelleCom from "../../assets/img/portfolio/iamshurnelle.com.jpg";
 
 const breakpointColumnsObj = {
   default: 3,
@@ -44,6 +54,9 @@ const tabList = [
   "CheckinTT",
   "School Management",
   "Ecommerce",
+  "Meme Sharing App",
+  "Netflix UI CLone",
+  "Other Projects",
 ];
 const tabListContent = [
   {
@@ -60,47 +73,56 @@ const tabListContent = [
         portfolioLink: "https://projectone.cyversify.com/",
       },
       {
-        img: cucedutt,
-        width: 400,
-        height: 550,
-        title: "Caribbean Union College Secondary School",
-        subTitle: "student Database Landing Page",
-        alterText: "Front-end landing page built with WordPress",
+        img: trailerViewDiscover,
+        width: 752,
+        height: 423,
+        title: "Trailer View App",
+        subTitle: "Prview Movie Trailers ia Youtune",
+        alterText: "Click link to view profile page",
         delayAnimation: "100",
-        portfolioLink: "https://cuc.edu.tt/",
+        portfolioLink: "https://trailerview.kerwindows.comr",
       },
 
       {
-        img: dmf,
-        title: "Divi Mobi First",
-        subTitle: "My personal PWordPRess Plugin",
-        alterText: "Built with Divi Theme for WordPress",
+        img: trailerViewMobile,
+        width: 936,
+        height: 1906,
+        title: "Trailer View App",
+        subTitle: "Netflix UI Clone",
+        alterText: "Built with ReactJS",
         delayAnimation: "200",
-        portfolioLink: "http://estore.kerwindows.com/shop.php",
+        portfolioLink: "https://trailerview.kerwindows.com",
       },
       {
-        img: estoreWearPositive,
-        title: "Ecommerce Clothing Store",
-        subTitle: "Built with PHP and JavaScript",
-        alterText: "E-store landing page. Built since 2018",
+        img: aroundReact2,
+        width: 701,
+        height: 717,
+        title: "Around React",
+        subTitle: "Meme Sharing App",
+        alterText: "Build with the MERN Stack. Hosted on Google Cloud",
         delayAnimation: "0",
-        portfolioLink: "http://estore.kerwindows.com/",
+        portfolioLink: "https://kerwindows.students.nomoredomainssbs.ru/",
       },
       {
         img: linkwiPreview,
+        width: 400,
+        height: 550,
         title: "Linkwi NFC Business Card",
         subTitle: "Linkwi profile",
         alterText: "Built with Vanilla JavaScript and jQuery",
         delayAnimation: "0",
         portfolioLink: "https://linkwi.co/card/chleo",
       },
+
       {
-        img: aroundTheReact,
-        title: "Around the US",
-        subTitle: "Share images from around the US",
-        alterText: "Build with ReactJS. Hosted on GitHub",
+        img: estoreWearPositive,
+        width: 400,
+        height: 550,
+        title: "Ecommerce Clothing Store",
+        subTitle: "Built with PHP and JavaScript",
+        alterText: "E-store landing page. Built since 2018",
         delayAnimation: "0",
-        portfolioLink: "https://kerwindows.github.io/around-react/",
+        portfolioLink: "http://estore.kerwindows.com/",
       },
     ],
   },
@@ -108,15 +130,19 @@ const tabListContent = [
     portfolioItems: [
       //linkwi
       {
-        img: linkwiKerwin,
+        img: linkwiChleo,
+        width: 489,
+        height: 854,
         title: "Linkwi Web Application",
         subTitle: "Linkwi Web Application",
         alterText: "Click link to view profile page",
         delayAnimation: "100",
-        portfolioLink: "https://linkwi.co/card/kerwinthompson",
+        portfolioLink: "https://linkwi.co/card/chleo",
       },
       {
         img: linkwiKerwinEdit,
+        width: 470,
+        height: 700,
         title: "My Linkwi profile",
         subTitle: "Edit profile page",
         alterText: "Click link to view profile page",
@@ -125,6 +151,8 @@ const tabListContent = [
       },
       {
         img: linkwiKerwinEditLinks,
+        width: 470,
+        height: 700,
         title: "My Linkwi profile",
         subTitle: "Edit  my project links",
         alterText: "Click link to view profile page example",
@@ -132,15 +160,19 @@ const tabListContent = [
         portfolioLink: "https://linkwi.co/card/kerwinthompson",
       },
       {
-        img: linkwiBackend,
-        title: "Backend profile edit",
+        img: linkwiDashboard,
+        width: 1800,
+        height: 1198,
+        title: "Dashboard",
         subTitle: "Linkwi Web Application",
         alterText: "Click link for demo",
         delayAnimation: "200",
         portfolioLink: "https://youtu.be/2jUaGwwnA7E",
       },
       {
-        img: linkwiStats,
+        img: linkwiDashboard2,
+        width: 1800,
+        height: 1190,
         title: "View social stats",
         subTitle: "Linkwi statistics dashboard",
         alterText: "Click link for demo",
@@ -148,7 +180,9 @@ const tabListContent = [
         portfolioLink: "https://youtu.be/2jUaGwwnA7E",
       },
       {
-        img: linkiwLinksHistory,
+        img: linkwiDashboard3,
+        width: 1800,
+        height: 1416,
         title: "View link click stats",
         subTitle: "Linkwi statistics dashboard",
         alterText: "Click link for demo",
@@ -283,6 +317,133 @@ const tabListContent = [
         alterText: "Built with LAMP Stack with Vanilla JavaScript",
         delayAnimation: "200",
         portfolioLink: "http://estore.kerwindows.com/shop.php",
+      },
+    ],
+  },
+  {
+    portfolioItems: [
+      //meme app
+      {
+        img: aroundReactLogin,
+        title: "Meme Sharing App",
+        subTitle: "Login page",
+        alterText: "React App",
+        delayAnimation: "",
+        portfolioLink: "https://kerwindows.students.nomoredomainssbs.ru/",
+      },
+      {
+        img: aroundReact2,
+        width: 701,
+        height: 717,
+        title: "Meme Sharing App",
+        subTitle: "Share Funnyh Memes",
+        alterText: "Built with the MERN Stack",
+        delayAnimation: "100",
+        portfolioLink: "https://kerwindows.students.nomoredomainssbs.ru/",
+      },
+
+      {
+        img: aroundReactEditProfile,
+        width: 840,
+        height: 796,
+        title: "Meme Sharing App",
+        subTitle: "Share Funnyh Memes",
+        alterText: "Built with the MERN Stack",
+        delayAnimation: "200",
+        portfolioLink: "https://kerwindows.students.nomoredomainssbs.ru/",
+      },
+    ],
+  },
+  {
+    portfolioItems: [
+      //netflix ui clone
+      {
+        img: trailerViewWick,
+        width: "800",
+        height: "1629",
+        title: "Trailer View App",
+        subTitle: "View Movie Trailers Via YouTube",
+        alterText: "React App",
+        delayAnimation: "100",
+        portfolioLink:
+          "https://trailerview.kerwindows.com/discover/movie/603692",
+      },
+      {
+        img: trailerViewBoots,
+        width: "480",
+        height: "854",
+        title: "Trailer View App",
+        subTitle: "View Movie Trailers Via YouTube",
+        alterText: "React App",
+        delayAnimation: "100",
+        portfolioLink: "https://trailerview.kerwindows.com/discover/",
+      },
+      {
+        img: trailerViewFull,
+        width: "800",
+        height: "1848",
+        title: "Trailer View App",
+        subTitle: "View Movie Trailers Via YouTube",
+        alterText: "React App",
+        delayAnimation: "",
+        portfolioLink: "https://trailerview.kerwindows.com/discover",
+      },
+
+      {
+        img: trailerViewHart,
+        width: "1800",
+        height: "854",
+        title: "Trailer View App",
+        subTitle: "View Movie Trailers Via YouTube",
+        alterText: "React App",
+        delayAnimation: "100",
+        portfolioLink:
+          "https://trailerview.kerwindows.com/discover/movie/1077280",
+      },
+      {
+        img: trailerViewLuck,
+        width: "1800",
+        height: "961",
+        title: "Trailer View App",
+        subTitle: "View Movie Trailers Via YouTube",
+        alterText: "React App",
+        delayAnimation: "100",
+        portfolioLink: "https://trailerview.kerwindows.com/discover/",
+      },
+    ],
+  },
+  {
+    portfolioItems: [
+      //others
+      {
+        img: cucedutt,
+        width: 1800,
+        height: 6154,
+        title: "Caribbean Union College Secondary School",
+        subTitle: "student Database Landing Page",
+        alterText: "Front-end landing page built with WordPress",
+        delayAnimation: "100",
+        portfolioLink: "https://cuc.edu.tt/",
+      },
+      {
+        img: dmf,
+        width: 1800,
+        height: 9734,
+        title: "Divi Mobi First",
+        subTitle: "WordPRess Plugin Website",
+        alterText: "Built with Divi Theme",
+        delayAnimation: "200",
+        portfolioLink: "https://divimobifirst.com",
+      },
+      {
+        img: iamshurnelleCom,
+        title: "I Am Shurnelle",
+        width: 1800,
+        height: 7253,
+        subTitle: "Shurnelle Music Website",
+        alterText: "Built with WordPRess",
+        delayAnimation: "200",
+        portfolioLink: "https://iamshurnelle.com",
       },
     ],
   },

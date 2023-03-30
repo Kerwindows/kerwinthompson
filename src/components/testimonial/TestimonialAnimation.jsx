@@ -67,7 +67,7 @@ export default function SimpleSlider() {
   return (
     <div className="testimonial-wrapper">
       <Slider {...settings}>
-        {TestimonilContent.map((val, i) => (
+        {TestimonilContent.map((val, i) => {
           <div
             key={i}
             data-aos="fade-up"
@@ -84,8 +84,8 @@ export default function SimpleSlider() {
                 <span>{val.designation}</span>
               </div>
             </div>
-          </div>
-        ))}
+          </div>;
+        })}
       </Slider>
     </div>
   );

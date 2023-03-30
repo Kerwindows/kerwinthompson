@@ -9,14 +9,14 @@ const options = {
 const callbacks = {
   getWordColor: (word) => {
     if (word.value > 4) {
-      return "dodgerblue";
+      return "orange";
     } else {
       return word.value > 3
         ? "white"
         : word.value > 2
         ? "grey"
         : word.value > 1
-        ? "orange"
+        ? "dodgereblue"
         : "red";
     }
   },
