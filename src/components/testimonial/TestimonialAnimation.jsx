@@ -7,7 +7,7 @@ import team_2 from "../../assets/img/testimonial/team-2.jpg";
 import team_3 from "../../assets/img/testimonial/team-3.jpg";
 import team_4 from "../../assets/img/testimonial/team-4.jpg";
 
-export default function SimpleSlider() {
+export default function Testimonaial() {
   const settings = {
     dots: true,
     arrow: false,
