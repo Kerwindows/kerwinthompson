@@ -3,7 +3,7 @@ import TextLoop from "react-text-loop";
 
 const conctInfo = {
   phone: "+1 786 679 6542",
-  email: "kerwin@kerwindows.com",
+  email: "kerwindows@gmail.com",
 };
 
 const sliderContent = {
