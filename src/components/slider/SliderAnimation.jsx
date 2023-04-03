@@ -10,9 +10,7 @@ const conctInfo = {
 const sliderContent = {
   name: "Kerwin Thompson",
   designation: "Software Engineer",
-  description: `I design and develop services for customers of all sizes,
-  specializing in creating stylish, modern web applications, web
-  services and online stores.`,
+  description: `Design obsessed front-end engineer with a passion for creating frictionless online experiences.`,
   btnText: " Donwload CV",
 };
 
@@ -31,7 +29,7 @@ const Slider = () => {
           <div className="hb-lang">
             <ul className="nav">
               <li className="active">
-                <a href="#">EN</a>
+                <a href={`#`}>EN</a>
               </li>
               {/* <li>
                 <a href="#">FR</a>
@@ -62,9 +60,9 @@ const Slider = () => {
                   data-aos-delay="200"
                 >
                   <TextLoop>
+                    <p className="loop-text lead">Software Engineer</p>
                     <p className="loop-text lead">Fullstack Developer</p>
-                    <p className="loop-text lead">Frontend Developer</p>
-                    <p className="loop-text lead">Web Application Developer</p>
+                    <p className="loop-text lead">UI/UX Designer</p>
                   </TextLoop>
                 </div>
 

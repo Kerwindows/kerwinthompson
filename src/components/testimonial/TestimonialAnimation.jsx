@@ -7,7 +7,7 @@ import team_2 from "../../assets/img/testimonial/team-2.jpg";
 import team_3 from "../../assets/img/testimonial/team-3.jpg";
 import team_4 from "../../assets/img/testimonial/team-4.jpg";
 
-export default function Testimonaial() {
+export default function Testimonials() {
   const settings = {
     dots: true,
     arrow: false,
@@ -68,23 +68,25 @@ export default function Testimonaial() {
     <div className="testimonial-wrapper">
       <Slider {...settings}>
         {TestimonilContent.map((val, i) => {
-          <div
-            key={i}
-            data-aos="fade-up"
-            data-aos-duration="1200"
-            data-aos-delay={val.delayAnimation}
-          >
-            <div className="testimonial-01 media">
-              <div className="avatar">
-                <img src={`${val.imageName}`} alt="review comments"></img>
-              </div>
-              <div className="media-body">
-                <p>{val.desc}</p>
-                <h6>{val.reviewerName}</h6>
-                <span>{val.designation}</span>
+          return (
+            <div
+              key={i}
+              data-aos="fade-up"
+              data-aos-duration="1200"
+              data-aos-delay={val.delayAnimation}
+            >
+              <div className="testimonial-01 media">
+                <div className="avatar">
+                  <img src={`${val.imageName}`} alt="review comments"></img>
+                </div>
+                <div className="media-body">
+                  <p>{val.desc}</p>
+                  <h6>{val.reviewerName}</h6>
+                  <span>{val.designation}</span>
+                </div>
               </div>
             </div>
-          </div>;
+          );
         })}
       </Slider>
     </div>
