@@ -47,14 +47,14 @@ const HomeOne = () => {
       <Resume />
       {/* End Resume Section */}
 
-      {/* <section id="blog" className="section">
+      <section id="blog" className="section">
         <div className="container">
           <div className="title">
             <h3>Latest Blog.</h3>
           </div>
           <Blog />
         </div>
-      </section> */}
+      </section>
       {/* End Portfolio Section */}
 
       <About />
