@@ -5,22 +5,42 @@ import Contact from "../contact/Contact";
 Modal.setAppElement("#root");
 
 const News = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen1, setIsOpen] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
   const [isOpen4, setIsOpen4] = useState(false);
+  const [isOpen5, setIsOpen5] = useState(false);
+  const [isOpen6, setIsOpen6] = useState(false);
+  const [isOpen7, setIsOpen7] = useState(false);
+  const [isOpen8, setIsOpen8] = useState(false);
+  const [isOpen9, setIsOpen9] = useState(false);
 
-  function toggleModalOne() {
-    setIsOpen(!isOpen);
+  function toggleModalNetflixClone() {
+    setIsOpen(!isOpen1);
   }
   function toggleModalTwo() {
     setIsOpen2(!isOpen2);
   }
-  function toggleModalThree() {
+  function toggleModalMeme() {
     setIsOpen3(!isOpen3);
   }
-  function toggleModalFour() {
+  function toggleModalHTMLCSS() {
     setIsOpen4(!isOpen4);
+  }
+  function toggleModalLinkwi() {
+    setIsOpen5(!isOpen5);
+  }
+  function toggleModalHR() {
+    setIsOpen6(!isOpen6);
+  }
+  function toggleModalCheckin() {
+    setIsOpen7(!isOpen7);
+  }
+  function toggleModalSIS() {
+    setIsOpen8(!isOpen8);
+  }
+  function toggleModalEcom() {
+    setIsOpen9(!isOpen9);
   }
 
   return (
@@ -38,7 +58,7 @@ const News = () => {
               <img src={`img/blog/blog-2.jpg`} alt="blog post"></img>
             </div>
             <div className="blog-info">
-              <div className="meta">04/Apr/2023 - by Kewin THompson</div>
+              <div className="meta">04/Apr/2023 - by Kerwin THompson</div>
               <h6>
                 <a>A Closer Look At My Software Engineering Skill Set</a>
               </h6>
@@ -46,10 +66,153 @@ const News = () => {
           </div>
         </div>
         {/* End .col for blog-1 */}
+
+        {/* Start .col for blog-2 */}
+        <div
+          className="col-md-6 m-15px-tb"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+          data-aos-delay="200"
+        >
+          <div className="blog-grid" onClick={toggleModalNetflixClone}>
+            <div className="blog-img">
+              <img src={`img/blog/blog-2.jpg`} alt="blog post"></img>
+            </div>
+            <div className="blog-info">
+              <div className="meta">06/Apr/2023 - by Kerwin THompson</div>
+              <h6>
+                <a>Netflix UI Clone</a>
+              </h6>
+            </div>
+          </div>
+        </div>
+        {/* End .col for blog-2 */}
+
+        {/* Start .col for blog-3 */}
+        <div
+          className="col-md-6 m-15px-tb"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+          data-aos-delay="200"
+        >
+          <div className="blog-grid" onClick={toggleModalMeme}>
+            <div className="blog-img">
+              <img src={`img/blog/blog-2.jpg`} alt="blog post"></img>
+            </div>
+            <div className="blog-info">
+              <div className="meta">07/Apr/2023 - by Kerwin THompson</div>
+              <h6>
+                <a>Meme Sharing App</a>
+              </h6>
+            </div>
+          </div>
+        </div>
+        {/* End .col for blog-3 */}
+
+        {/* Start .col for blog-4 */}
+        <div
+          className="col-md-6 m-15px-tb"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+          data-aos-delay="200"
+        >
+          <div className="blog-grid" onClick={toggleModalHTMLCSS}>
+            <div className="blog-img">
+              <img src={`img/blog/blog-2.jpg`} alt="blog post"></img>
+            </div>
+            <div className="blog-info">
+              <div className="meta">08/Apr/2023 - by Kerwin THompson</div>
+              <h6>
+                <a>HTML & CSS</a>
+              </h6>
+            </div>
+          </div>
+        </div>
+        {/* End .col for blog-5 */}
+        {/* Start .col for blog-6 */}
+        <div
+          className="col-md-6 m-15px-tb"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+          data-aos-delay="200"
+        >
+          <div className="blog-grid" onClick={toggleModalLinkwi}>
+            <div className="blog-img">
+              <img src={`img/blog/blog-2.jpg`} alt="blog post"></img>
+            </div>
+            <div className="blog-info">
+              <div className="meta">31/Mar/2023 - by Kerwin THompson</div>
+              <h6>
+                <a>Linkwi Social Networking App</a>
+              </h6>
+            </div>
+          </div>
+        </div>
+        {/* End .col for blog-6 */}
+        {/* Start .col for blog-7 */}
+        <div
+          className="col-md-6 m-15px-tb"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+          data-aos-delay="200"
+        >
+          <div className="blog-grid" onClick={toggleModalCheckin}>
+            <div className="blog-img">
+              <img src={`img/blog/blog-2.jpg`} alt="blog post"></img>
+            </div>
+            <div className="blog-info">
+              <div className="meta">11/Mar/2023 - by Kerwin THompson</div>
+              <h6>
+                <a>Checkin TT Taxi App</a>
+              </h6>
+            </div>
+          </div>
+        </div>
+        {/* End .col for blog-7 */}
+        {/* Start .col for blog-8 */}
+        <div
+          className="col-md-6 m-15px-tb"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+          data-aos-delay="200"
+        >
+          <div className="blog-grid" onClick={toggleModalSIS}>
+            <div className="blog-img">
+              <img src={`img/blog/blog-2.jpg`} alt="blog post"></img>
+            </div>
+            <div className="blog-info">
+              <div className="meta">20/Feb/2023 - by Kerwin THompson</div>
+              <h6>
+                <a>School Database Management App</a>
+              </h6>
+            </div>
+          </div>
+        </div>
+        {/* End .col for blog-8 */}
+        {/* Start .col for blog-9 */}
+        <div
+          className="col-md-6 m-15px-tb"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+          data-aos-delay="200"
+        >
+          <div className="blog-grid" onClick={toggleModalEcom}>
+            <div className="blog-img">
+              <img src={`img/blog/blog-2.jpg`} alt="blog post"></img>
+            </div>
+            <div className="blog-info">
+              <div className="meta">10/Jan/2023 - by Kerwin THompson</div>
+              <h6>
+                <a>Custom T-shirt Clothing Estore</a>
+              </h6>
+            </div>
+          </div>
+        </div>
+        {/* End .col for blog-9 */}
       </div>
       {/* End .row */}
 
-      {/* Start Modal for Blog-2 */}
+      {/* Start Modal for Blog-1 */}
       <Modal
         isOpen={isOpen2}
         onRequestClose={toggleModalTwo}
@@ -452,7 +615,665 @@ const News = () => {
         </div>
         {/* End modal box news */}
       </Modal>
+      {/* End  Modal for Blog-1 */}
+      {/* Start Modal for Blog-2 */}
+      <Modal
+        isOpen={isOpen1}
+        onRequestClose={toggleModalNetflixClone}
+        contentLabel="My dialog"
+        className="custom-modal"
+        overlayClassName="custom-overlay"
+        closeTimeoutMS={500}
+      >
+        <div>
+          <button className="close-modal" onClick={toggleModalNetflixClone}>
+            <img src="/img/cancel.svg" alt="close icon" />
+          </button>
+          {/* End close icon */}
+
+          <div className="box_inner">
+            <div className="scrollable">
+              <div className="blog-grid">
+                <div className="blog-img">
+                  <img src="img/blog/blog-2.jpg" alt="blog post"></img>
+                </div>
+                {/* End blog-img */}
+                <article className="article">
+                  <div className="article-title">
+                    <h2> Netflix UI Clone | </h2>
+                    <div className="media">
+                      <div className="avatar">
+                        <img src="img/testimonial/team-2.jpg" alt="thumbnail" />
+                      </div>
+                      <div className="media-body">
+                        <label>BY KERWIN THOMPSON</label>
+                        <span>6 APRIL 2023</span>
+                      </div>
+                    </div>
+                  </div>
+                  {/* End .article-title */}
+
+                  <div className="article-content">
+                    <blockquote>
+                      <p>Frontend Development</p>
+                    </blockquote>
+
+                    <p className="blockquote-footer">
+                      Designed and implemented a responsive, user-friendly UI
+                      for a Netflix clone app, adapting the layout to various
+                      screen resolutions and devices.
+                    </p>
+                    <p className="blockquote-footer">
+                      Developed highly reusable components, adhering to BEM
+                      naming conventions and ESlint standards, optimizing code
+                      readability and maintainability.
+                    </p>
+                    <p className="blockquote-footer">
+                      Ensured seamless user experience by incorporating
+                      efficient error handling and memory management in React
+                      components.
+                    </p>
+                  </div>
+                  {/* End article content */}
+                  <ul className="nav tag-cloud">
+                    <li href="#">HTML</li>
+                    <li href="#">CSS</li>
+                    <li href="#">React Libraries</li>
+                    <li href="#">Node Package Manager</li>
+                    <li href="#">TMDB RESTful API</li>
+                    <li href="#">Nginx</li>
+                    <li href="#">Certbot</li>
+                    <li href="#">Google VM</li>
+                  </ul>
+                  {/* End tag */}
+                </article>
+                {/* End Article */}
+
+                <div className="contact-form article-comment">
+                  <h4>Leave a Reply</h4>
+                  <Contact />
+                </div>
+                {/* End .contact Form */}
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* End modal box news */}
+      </Modal>
       {/* End  Modal for Blog-2 */}
+      {/* Start Modal for Blog-3 */}
+      <Modal
+        isOpen={isOpen3}
+        onRequestClose={toggleModalMeme}
+        contentLabel="My dialog"
+        className="custom-modal"
+        overlayClassName="custom-overlay"
+        closeTimeoutMS={500}
+      >
+        <div>
+          <button className="close-modal" onClick={toggleModalMeme}>
+            <img src="/img/cancel.svg" alt="close icon" />
+          </button>
+          {/* End close icon */}
+
+          <div className="box_inner">
+            <div className="scrollable">
+              <div className="blog-grid">
+                <div className="blog-img">
+                  <img src="img/blog/blog-2.jpg" alt="blog post"></img>
+                </div>
+                {/* End blog-img */}
+                <article className="article">
+                  <div className="article-title">
+                    <h2>Meme Sharing App</h2>
+                    <div className="media">
+                      <div className="avatar">
+                        <img src="img/testimonial/team-2.jpg" alt="thumbnail" />
+                      </div>
+                      <div className="media-body">
+                        <label>BY KERWIN THOMPSON</label>
+                        <span>7 APRIL 2023</span>
+                      </div>
+                    </div>
+                  </div>
+                  {/* End .article-title */}
+
+                  <div className="article-content">
+                    <blockquote>
+                      <p>React Full-stack</p>
+                    </blockquote>
+
+                    <p className="blockquote-footer">
+                      Built and maintained a full-stack image sharing
+                      application, utilizing Git for version control and
+                      ensuring code maintainability with reusable UI components.
+                    </p>
+                    <p className="blockquote-footer">
+                      Created a robust backend server using Node and Express,
+                      integrating RESTful API endpoints for seamless data
+                      access.
+                    </p>
+                    <p className="blockquote-footer">
+                      Designed a responsive, adaptable UI that catered to
+                      various screen resolutions, ensuring optimal user
+                      experience across devices.
+                    </p>
+                  </div>
+                  {/* End article content */}
+                  <ul className="nav tag-cloud">
+                    <li href="#">HTML</li>
+                    <li href="#">CSS</li>
+                    <li href="#">React</li>
+                    <li href="#">Express</li>
+                    <li href="#">NodeJS</li>
+                    <li href="#">Restful API</li>
+                    <li href="#">MongoDB</li>
+                    <li href="#">Node Package Manager</li>
+                    <li href="#">Nginx</li>
+                    <li href="#">Certbot</li>
+                    <li href="#">Google VM</li>
+                  </ul>
+                  {/* End tag */}
+                </article>
+                {/* End Article */}
+
+                <div className="contact-form article-comment">
+                  <h4>Leave a Reply</h4>
+                  <Contact />
+                </div>
+                {/* End .contact Form */}
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* End modal box news */}
+      </Modal>
+      {/* End  Modal for Blog-3 */}
+
+      {/* Start Modal for Blog-4 */}
+      <Modal
+        isOpen={isOpen4}
+        onRequestClose={toggleModalHTMLCSS}
+        contentLabel="My dialog"
+        className="custom-modal"
+        overlayClassName="custom-overlay"
+        closeTimeoutMS={500}
+      >
+        <div>
+          <button className="close-modal" onClick={toggleModalHTMLCSS}>
+            <img src="/img/cancel.svg" alt="close icon" />
+          </button>
+          {/* End close icon */}
+
+          <div className="box_inner">
+            <div className="scrollable">
+              <div className="blog-grid">
+                <div className="blog-img">
+                  <img src="img/blog/blog-2.jpg" alt="blog post"></img>
+                </div>
+                {/* End blog-img */}
+                <article className="article">
+                  <div className="article-title">
+                    <h2>HTML & CSS Layouts</h2>
+                    <div className="media">
+                      <div className="avatar">
+                        <img src="img/testimonial/team-2.jpg" alt="thumbnail" />
+                      </div>
+                      <div className="media-body">
+                        <label>BY KERWIN THOMPSON</label>
+                        <span>7 APRIL 2023</span>
+                      </div>
+                    </div>
+                  </div>
+                  {/* End .article-title */}
+
+                  <div className="article-content">
+                    <blockquote>
+                      <p>Frontend Development</p>
+                    </blockquote>
+
+                    <p className="blockquote-footer">
+                      Developed responsive, visually appealing websites using
+                      modern HTML, CSS flexbox, and grid techniques, catering to
+                      a variety of screen resolutions.
+                    </p>
+                    <p className="blockquote-footer">
+                      Organized CSS classes into modular, reusable components
+                      using the Block Element Modifier (BEM) standard for
+                      improved code maintenance.
+                    </p>
+                    <p className="blockquote-footer">
+                      Utilized Webpack to streamline deployment and hosting of
+                      websites on GitHub Pages.
+                    </p>
+                  </div>
+                  {/* End article content */}
+                  <ul className="nav tag-cloud">
+                    <li href="#">HTML</li>
+                    <li href="#">CSS flexbox and grid</li>
+                    <li href="#">Webpack</li>
+                  </ul>
+                  {/* End tag */}
+                </article>
+                {/* End Article */}
+
+                <div className="contact-form article-comment">
+                  <h4>Leave a Reply</h4>
+                  <Contact />
+                </div>
+                {/* End .contact Form */}
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* End modal box news */}
+      </Modal>
+      {/* End  Modal for Blog-4 */}
+
+      {/* Start Modal for Blog-5 */}
+      <Modal
+        isOpen={isOpen5}
+        onRequestClose={toggleModalLinkwi}
+        contentLabel="My dialog"
+        className="custom-modal"
+        overlayClassName="custom-overlay"
+        closeTimeoutMS={500}
+      >
+        <div>
+          <button className="close-modal" onClick={toggleModalLinkwi}>
+            <img src="/img/cancel.svg" alt="close icon" />
+          </button>
+          {/* End close icon */}
+
+          <div className="box_inner">
+            <div className="scrollable">
+              <div className="blog-grid">
+                <div className="blog-img">
+                  <img src="img/blog/blog-2.jpg" alt="blog post"></img>
+                </div>
+                {/* End blog-img */}
+                <article className="article">
+                  <div className="article-title">
+                    <h2>LinkWi Social Networking App</h2>
+                    <div className="media">
+                      <div className="avatar">
+                        <img src="img/testimonial/team-2.jpg" alt="thumbnail" />
+                      </div>
+                      <div className="media-body">
+                        <label>BY KERWIN THOMPSON</label>
+                        <span>31 MAR 2023</span>
+                      </div>
+                    </div>
+                  </div>
+                  {/* End .article-title */}
+
+                  <div className="article-content">
+                    <blockquote>
+                      <p>Full-stack Development</p>
+                    </blockquote>
+
+                    <p className="blockquote-footer">
+                      Spearheaded the development and launch of an NFC-enabled
+                      web app, overseeing design, functionality, and payment
+                      gateway integration.
+                    </p>
+                    <p className="blockquote-footer">
+                      Revamped the tech stack with React and NodeJS, improving
+                      authentication and security features for an enhanced user
+                      experience.
+                    </p>
+                    <p className="blockquote-footer">
+                      Pioneered the implementation of PHP vCard Library for
+                      contact downloads, streamlining the user journey.
+                    </p>
+                  </div>
+                  {/* End article content */}
+                  <ul className="nav tag-cloud">
+                    <li href="#">HTML</li>
+                    <li href="#">CSS</li>
+                    <li href="#">Bootstrap</li>
+                    <li href="#">PHP</li>
+                    <li href="#">JavaScript</li>
+                    <li href="#">MySQL</li>
+                    <li href="#">NFC</li>
+                    <li href="#">QR Codes</li>
+                  </ul>
+                  {/* End tag */}
+                </article>
+                {/* End Article */}
+
+                <div className="contact-form article-comment">
+                  <h4>Leave a Reply</h4>
+                  <Contact />
+                </div>
+                {/* End .contact Form */}
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* End modal box news */}
+      </Modal>
+      {/* End  Modal for Blog-5 */}
+      {/* Start Modal for Blog-6 */}
+      <Modal
+        isOpen={isOpen6}
+        onRequestClose={toggleModalHR}
+        contentLabel="My dialog"
+        className="custom-modal"
+        overlayClassName="custom-overlay"
+        closeTimeoutMS={500}
+      >
+        <div>
+          <button className="close-modal" onClick={toggleModalHR}>
+            <img src="/img/cancel.svg" alt="close icon" />
+          </button>
+          {/* End close icon */}
+
+          <div className="box_inner">
+            <div className="scrollable">
+              <div className="blog-grid">
+                <div className="blog-img">
+                  <img src="img/blog/blog-2.jpg" alt="blog post"></img>
+                </div>
+                {/* End blog-img */}
+                <article className="article">
+                  <div className="article-title">
+                    <h2>HR Management App</h2>
+                    <div className="media">
+                      <div className="avatar">
+                        <img src="img/testimonial/team-2.jpg" alt="thumbnail" />
+                      </div>
+                      <div className="media-body">
+                        <label>BY KERWIN THOMPSON</label>
+                        <span>26 MAR 2023</span>
+                      </div>
+                    </div>
+                  </div>
+                  {/* End .article-title */}
+
+                  <div className="article-content">
+                    <blockquote>
+                      <p>Full-stack Development</p>
+                    </blockquote>
+
+                    <p className="blockquote-footer">
+                      Collaborated in the design and implementation of an
+                      intuitive admin dashboard, including KPI statistics and an
+                      agenda boardroom page.
+                    </p>
+                    <p className="blockquote-footer">
+                      Developed a comprehensive shift management system and
+                      worked closely with the project manager for a tailored
+                      customer experience.
+                    </p>
+                    <p className="blockquote-footer">
+                      Implemented role management, user authentication, and
+                      authorization for secure access control.
+                    </p>
+                  </div>
+                  {/* End article content */}
+                  <ul className="nav tag-cloud">
+                    <li href="#">HTML</li>
+                    <li href="#">CSS</li>
+                    <li href="#">Bootstrap</li>
+                    <li href="#">PHP</li>
+                    <li href="#">JavaScript</li>
+                    <li href="#">PostgreSQL</li>
+                  </ul>
+                  {/* End tag */}
+                </article>
+                {/* End Article */}
+
+                <div className="contact-form article-comment">
+                  <h4>Leave a Reply</h4>
+                  <Contact />
+                </div>
+                {/* End .contact Form */}
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* End modal box news */}
+      </Modal>
+      {/* End  Modal for Blog-6 */}
+      {/* Start Modal for Blog-7 */}
+      <Modal
+        isOpen={isOpen7}
+        onRequestClose={toggleModalCheckin}
+        contentLabel="My dialog"
+        className="custom-modal"
+        overlayClassName="custom-overlay"
+        closeTimeoutMS={500}
+      >
+        <div>
+          <button className="close-modal" onClick={toggleModalCheckin}>
+            <img src="/img/cancel.svg" alt="close icon" />
+          </button>
+          {/* End close icon */}
+
+          <div className="box_inner">
+            <div className="scrollable">
+              <div className="blog-grid">
+                <div className="blog-img">
+                  <img src="img/blog/blog-2.jpg" alt="blog post"></img>
+                </div>
+                {/* End blog-img */}
+                <article className="article">
+                  <div className="article-title">
+                    <h2>Checkin TT Management App</h2>
+                    <div className="media">
+                      <div className="avatar">
+                        <img src="img/testimonial/team-2.jpg" alt="thumbnail" />
+                      </div>
+                      <div className="media-body">
+                        <label>BY KERWIN THOMPSON</label>
+                        <span>11 MAR 2023</span>
+                      </div>
+                    </div>
+                  </div>
+                  {/* End .article-title */}
+
+                  <div className="article-content">
+                    <blockquote>
+                      <p>Full-stack Development</p>
+                    </blockquote>
+
+                    <p className="blockquote-footer">
+                      Built a seamless user experience with a Custom built QR
+                      code scanner and an intuitive mobile dashboard, utilizing
+                      AJAX for asynchronous programming.
+                    </p>
+                    <p className="blockquote-footer">
+                      Implemented email functionality using PHPMailer, ensuring
+                      efficient communication within the application.
+                    </p>
+                    <p className="blockquote-footer">
+                      Designed a robust file architecture for seamless user
+                      interaction and optimal site performance.
+                    </p>
+                  </div>
+                  {/* End article content */}
+                  <ul className="nav tag-cloud">
+                    <li href="#">PHP</li>
+                    <li href="#">JavaScript</li>
+                    <li href="#">MySQL</li>
+                    <li href="#">jQuery</li>
+                    <li href="#">QR</li>
+                    <li href="#">Apache server</li>
+                  </ul>
+                  {/* End tag */}
+                </article>
+                {/* End Article */}
+
+                <div className="contact-form article-comment">
+                  <h4>Leave a Reply</h4>
+                  <Contact />
+                </div>
+                {/* End .contact Form */}
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* End modal box news */}
+      </Modal>
+      {/* End  Modal for Blog-7 */}
+      {/* Start Modal for Blog-8 */}
+      <Modal
+        isOpen={isOpen8}
+        onRequestClose={toggleModalSIS}
+        contentLabel="My dialog"
+        className="custom-modal"
+        overlayClassName="custom-overlay"
+        closeTimeoutMS={500}
+      >
+        <div>
+          <button className="close-modal" onClick={toggleModalSIS}>
+            <img src="/img/cancel.svg" alt="close icon" />
+          </button>
+          {/* End close icon */}
+
+          <div className="box_inner">
+            <div className="scrollable">
+              <div className="blog-grid">
+                <div className="blog-img">
+                  <img src="img/blog/blog-2.jpg" alt="blog post"></img>
+                </div>
+                {/* End blog-img */}
+                <article className="article">
+                  <div className="article-title">
+                    <h2>School Database Management App</h2>
+                    <div className="media">
+                      <div className="avatar">
+                        <img src="img/testimonial/team-2.jpg" alt="thumbnail" />
+                      </div>
+                      <div className="media-body">
+                        <label>BY KERWIN THOMPSON</label>
+                        <span>20 FEB 2023</span>
+                      </div>
+                    </div>
+                  </div>
+                  {/* End .article-title */}
+
+                  <div className="article-content">
+                    <blockquote>
+                      <p>Full-stack Development</p>
+                    </blockquote>
+
+                    <p className="blockquote-footer">
+                      Developed an innovative, real-time NFC.RFID scanning
+                      system for a school database management app, integrating
+                      Telegram API for automatic alerts and bulk messaging.
+                    </p>
+                    <p className="blockquote-footer">
+                      Designed and built a user profile information page, event
+                      calendar, and school timetable, streamlining user
+                      interaction.
+                    </p>
+                    <p className="blockquote-footer">
+                      Spearheaded code refactoring and database optimization for
+                      improved site performance and maintainability.
+                    </p>
+                  </div>
+                  {/* End article content */}
+                  <ul className="nav tag-cloud">
+                    <li href="#">PHP</li>
+                    <li href="#">JavaScript</li>
+                    <li href="#">jQuery</li>
+                    <li href="#">AJAX</li>
+                    <li href="#">MySQL</li>
+                  </ul>
+                  {/* End tag */}
+                </article>
+                {/* End Article */}
+
+                <div className="contact-form article-comment">
+                  <h4>Leave a Reply</h4>
+                  <Contact />
+                </div>
+                {/* End .contact Form */}
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* End modal box news */}
+      </Modal>
+      {/* End  Modal for Blog-8 */}
+      {/* Start Modal for Blog-9 */}
+      <Modal
+        isOpen={isOpen9}
+        onRequestClose={toggleModalEcom}
+        contentLabel="My dialog"
+        className="custom-modal"
+        overlayClassName="custom-overlay"
+        closeTimeoutMS={500}
+      >
+        <div>
+          <button className="close-modal" onClick={toggleModalEcom}>
+            <img src="/img/cancel.svg" alt="close icon" />
+          </button>
+          {/* End close icon */}
+
+          <div className="box_inner">
+            <div className="scrollable">
+              <div className="blog-grid">
+                <div className="blog-img">
+                  <img src="img/blog/blog-2.jpg" alt="blog post"></img>
+                </div>
+                {/* End blog-img */}
+                <article className="article">
+                  <div className="article-title">
+                    <h2>Ecommerce Clothing Store</h2>
+                    <div className="media">
+                      <div className="avatar">
+                        <img src="img/testimonial/team-2.jpg" alt="thumbnail" />
+                      </div>
+                      <div className="media-body">
+                        <label>BY KERWIN THOMPSON</label>
+                        <span>10 Jan 2023</span>
+                      </div>
+                    </div>
+                  </div>
+                  {/* End .article-title */}
+
+                  <div className="article-content">
+                    <blockquote>
+                      <p>Full-stack Development</p>
+                    </blockquote>
+
+                    <p className="blockquote-footer">
+                      Integrated PayPal API for realtime online purchases
+                    </p>
+                    <p className="blockquote-footer">
+                      Dynamic filtering and Sorting
+                    </p>
+                    <p className="blockquote-footer">
+                      Built T-shirt cusomization page
+                    </p>
+                  </div>
+                  {/* End article content */}
+                  <ul className="nav tag-cloud">
+                    <li href="#">PHP</li>
+                    <li href="#">JavaScript</li>
+                    <li href="#">MySQL</li>
+                    <li href="#">Bootstrap</li>
+                    <li href="#">PayPal API </li>
+                  </ul>
+                  {/* End tag */}
+                </article>
+                {/* End Article */}
+
+                <div className="contact-form article-comment">
+                  <h4>Leave a Reply</h4>
+                  <Contact />
+                </div>
+                {/* End .contact Form */}
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* End modal box news */}
+      </Modal>
+      {/* End  Modal for Blog-9 */}
     </>
   );
 };
