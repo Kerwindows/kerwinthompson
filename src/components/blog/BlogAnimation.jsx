@@ -1,6 +1,20 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import Contact from "../contact/Contact";
+import defaultImg from "../../assets/img/blog/default-992x661.jpg";
+import image1 from "../../assets/img/blog/blog-1.jpg";
+import image2 from "../../assets/img/blog/blog-2.jpg";
+import image3 from "../../assets/img/blog/blog-3.jpg";
+import image4 from "../../assets/img/blog/blog-4.jpg";
+import image5 from "../../assets/img/blog/blog-5.jpg";
+import image6 from "../../assets/img/blog/blog-6.jpg";
+import image7 from "../../assets/img/blog/blog-7.jpg";
+import image8 from "../../assets/img/blog/blog-8.jpg";
+import kerwinImg from "../../assets/img/about/kerwin.jpg";
+import cancel from "../../assets/img/cancel.svg";
+import estoreImg from "../../assets/img/blog/estore.jpg";
+import estoreTshirt from "../../assets/img/blog/estoreTshirt.jpg";
+import sisAttendance from "../../assets/img/blog/sisAttendance.jpg";
 
 Modal.setAppElement("#root");
 
@@ -55,7 +69,7 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalTwo}>
             <div className="blog-img">
-              <img src={`img/blog/blog-2.jpg`} alt="blog post"></img>
+              <img src={image1} alt="blog post"></img>
             </div>
             <div className="blog-info">
               <div className="meta">04/Apr/2023 - by Kerwin THompson</div>
@@ -76,7 +90,7 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalNetflixClone}>
             <div className="blog-img">
-              <img src={`img/blog/blog-2.jpg`} alt="blog post"></img>
+              <img src={image2} alt="blog post"></img>
             </div>
             <div className="blog-info">
               <div className="meta">06/Apr/2023 - by Kerwin THompson</div>
@@ -97,7 +111,7 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalMeme}>
             <div className="blog-img">
-              <img src={`img/blog/blog-2.jpg`} alt="blog post"></img>
+              <img src={image3} alt="blog post"></img>
             </div>
             <div className="blog-info">
               <div className="meta">07/Apr/2023 - by Kerwin THompson</div>
@@ -118,7 +132,7 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalHTMLCSS}>
             <div className="blog-img">
-              <img src={`img/blog/blog-2.jpg`} alt="blog post"></img>
+              <img src={image4} alt="blog post"></img>
             </div>
             <div className="blog-info">
               <div className="meta">08/Apr/2023 - by Kerwin THompson</div>
@@ -138,7 +152,7 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalLinkwi}>
             <div className="blog-img">
-              <img src={`img/blog/blog-2.jpg`} alt="blog post"></img>
+              <img src={image5} alt="blog post"></img>
             </div>
             <div className="blog-info">
               <div className="meta">31/Mar/2023 - by Kerwin THompson</div>
@@ -158,7 +172,7 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalCheckin}>
             <div className="blog-img">
-              <img src={`img/blog/blog-2.jpg`} alt="blog post"></img>
+              <img src={image6} alt="blog post"></img>
             </div>
             <div className="blog-info">
               <div className="meta">11/Mar/2023 - by Kerwin THompson</div>
@@ -178,7 +192,7 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalSIS}>
             <div className="blog-img">
-              <img src={`img/blog/blog-2.jpg`} alt="blog post"></img>
+              <img src={sisAttendance} alt="blog post"></img>
             </div>
             <div className="blog-info">
               <div className="meta">20/Feb/2023 - by Kerwin THompson</div>
@@ -198,7 +212,7 @@ const News = () => {
         >
           <div className="blog-grid" onClick={toggleModalEcom}>
             <div className="blog-img">
-              <img src={`img/blog/blog-2.jpg`} alt="blog post"></img>
+              <img src={estoreTshirt} alt="blog post"></img>
             </div>
             <div className="blog-info">
               <div className="meta">10/Jan/2023 - by Kerwin THompson</div>
@@ -223,7 +237,7 @@ const News = () => {
       >
         <div>
           <button className="close-modal" onClick={toggleModalTwo}>
-            <img src="/img/cancel.svg" alt="close icon" />
+            <img src={cancel} alt="close icon" />
           </button>
           {/* End close icon */}
 
@@ -231,7 +245,7 @@ const News = () => {
             <div className="scrollable">
               <div className="blog-grid">
                 <div className="blog-img">
-                  <img src="img/blog/blog-2.jpg" alt="blog post"></img>
+                  <img src={image1} alt="blog post"></img>
                 </div>
                 {/* End blog-img */}
                 <article className="article">
@@ -239,7 +253,7 @@ const News = () => {
                     <h2>My Skillset</h2>
                     <div className="media">
                       <div className="avatar">
-                        <img src="img/testimonial/team-2.jpg" alt="thumbnail" />
+                        <img src={kerwinImg} alt="thumbnail" />
                       </div>
                       <div className="media-body">
                         <label>BY KERWIN THOMPSON</label>
@@ -248,7 +262,9 @@ const News = () => {
                     </div>
                   </div>
                   {/* End .article-title */}
-
+                  <div className="blog-img">
+                    <img src={estoreImg} alt="blog post"></img>
+                  </div>
                   <div className="article-content">
                     <p>
                       I try to be transparent. This blog is available to
@@ -627,7 +643,7 @@ const News = () => {
       >
         <div>
           <button className="close-modal" onClick={toggleModalNetflixClone}>
-            <img src="/img/cancel.svg" alt="close icon" />
+            <img src={cancel} alt="close icon" />
           </button>
           {/* End close icon */}
 
@@ -635,7 +651,7 @@ const News = () => {
             <div className="scrollable">
               <div className="blog-grid">
                 <div className="blog-img">
-                  <img src="img/blog/blog-2.jpg" alt="blog post"></img>
+                  <img src={image2} alt="blog post"></img>
                 </div>
                 {/* End blog-img */}
                 <article className="article">
@@ -643,7 +659,7 @@ const News = () => {
                     <h2> Netflix UI Clone | </h2>
                     <div className="media">
                       <div className="avatar">
-                        <img src="img/testimonial/team-2.jpg" alt="thumbnail" />
+                        <img src={kerwinImg} alt="thumbnail" />
                       </div>
                       <div className="media-body">
                         <label>BY KERWIN THOMPSON</label>
@@ -712,7 +728,7 @@ const News = () => {
       >
         <div>
           <button className="close-modal" onClick={toggleModalMeme}>
-            <img src="/img/cancel.svg" alt="close icon" />
+            <img src={cancel} alt="close icon" />
           </button>
           {/* End close icon */}
 
@@ -720,7 +736,7 @@ const News = () => {
             <div className="scrollable">
               <div className="blog-grid">
                 <div className="blog-img">
-                  <img src="img/blog/blog-2.jpg" alt="blog post"></img>
+                  <img src={image3} alt="blog post"></img>
                 </div>
                 {/* End blog-img */}
                 <article className="article">
@@ -728,7 +744,7 @@ const News = () => {
                     <h2>Meme Sharing App</h2>
                     <div className="media">
                       <div className="avatar">
-                        <img src="img/testimonial/team-2.jpg" alt="thumbnail" />
+                        <img src={kerwinImg} alt="thumbnail" />
                       </div>
                       <div className="media-body">
                         <label>BY KERWIN THOMPSON</label>
@@ -801,7 +817,7 @@ const News = () => {
       >
         <div>
           <button className="close-modal" onClick={toggleModalHTMLCSS}>
-            <img src="/img/cancel.svg" alt="close icon" />
+            <img src={cancel} alt="close icon" />
           </button>
           {/* End close icon */}
 
@@ -809,7 +825,7 @@ const News = () => {
             <div className="scrollable">
               <div className="blog-grid">
                 <div className="blog-img">
-                  <img src="img/blog/blog-2.jpg" alt="blog post"></img>
+                  <img src={image4} alt="blog post"></img>
                 </div>
                 {/* End blog-img */}
                 <article className="article">
@@ -817,7 +833,7 @@ const News = () => {
                     <h2>HTML & CSS Layouts</h2>
                     <div className="media">
                       <div className="avatar">
-                        <img src="img/testimonial/team-2.jpg" alt="thumbnail" />
+                        <img src={kerwinImg} alt="thumbnail" />
                       </div>
                       <div className="media-body">
                         <label>BY KERWIN THOMPSON</label>
@@ -831,7 +847,6 @@ const News = () => {
                     <blockquote>
                       <p>Frontend Development</p>
                     </blockquote>
-
                     <p className="blockquote-footer">
                       Developed responsive, visually appealing websites using
                       modern HTML, CSS flexbox, and grid techniques, catering to
@@ -846,6 +861,29 @@ const News = () => {
                       Utilized Webpack to streamline deployment and hosting of
                       websites on GitHub Pages.
                     </p>
+                    <a
+                      href="https://kerwindows.github.io/web_poject_1_responsive/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      View Website 1
+                    </a>{" "}
+                    |{" "}
+                    <a
+                      href="https://kerwindows.github.io/web_project_3/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      View Website 2
+                    </a>{" "}
+                    |{" "}
+                    <a
+                      href="https://kerwindows.github.io/web_project_2/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      View Website 2
+                    </a>
                   </div>
                   {/* End article content */}
                   <ul className="nav tag-cloud">
@@ -881,7 +919,7 @@ const News = () => {
       >
         <div>
           <button className="close-modal" onClick={toggleModalLinkwi}>
-            <img src="/img/cancel.svg" alt="close icon" />
+            <img src={cancel} alt="close icon" />
           </button>
           {/* End close icon */}
 
@@ -889,7 +927,7 @@ const News = () => {
             <div className="scrollable">
               <div className="blog-grid">
                 <div className="blog-img">
-                  <img src="img/blog/blog-2.jpg" alt="blog post"></img>
+                  <img src={image5} alt="blog post"></img>
                 </div>
                 {/* End blog-img */}
                 <article className="article">
@@ -897,7 +935,7 @@ const News = () => {
                     <h2>LinkWi Social Networking App</h2>
                     <div className="media">
                       <div className="avatar">
-                        <img src="img/testimonial/team-2.jpg" alt="thumbnail" />
+                        <img src={kerwinImg} alt="thumbnail" />
                       </div>
                       <div className="media-body">
                         <label>BY KERWIN THOMPSON</label>
@@ -965,7 +1003,7 @@ const News = () => {
       >
         <div>
           <button className="close-modal" onClick={toggleModalHR}>
-            <img src="/img/cancel.svg" alt="close icon" />
+            <img src={cancel} alt="close icon" />
           </button>
           {/* End close icon */}
 
@@ -973,7 +1011,7 @@ const News = () => {
             <div className="scrollable">
               <div className="blog-grid">
                 <div className="blog-img">
-                  <img src="img/blog/blog-2.jpg" alt="blog post"></img>
+                  <img src={image6} alt="blog post"></img>
                 </div>
                 {/* End blog-img */}
                 <article className="article">
@@ -981,7 +1019,7 @@ const News = () => {
                     <h2>HR Management App</h2>
                     <div className="media">
                       <div className="avatar">
-                        <img src="img/testimonial/team-2.jpg" alt="thumbnail" />
+                        <img src={kerwinImg} alt="thumbnail" />
                       </div>
                       <div className="media-body">
                         <label>BY KERWIN THOMPSON</label>
@@ -1047,7 +1085,7 @@ const News = () => {
       >
         <div>
           <button className="close-modal" onClick={toggleModalCheckin}>
-            <img src="/img/cancel.svg" alt="close icon" />
+            <img src={cancel} alt="close icon" />
           </button>
           {/* End close icon */}
 
@@ -1055,7 +1093,7 @@ const News = () => {
             <div className="scrollable">
               <div className="blog-grid">
                 <div className="blog-img">
-                  <img src="img/blog/blog-2.jpg" alt="blog post"></img>
+                  <img src={image6} alt="blog post"></img>
                 </div>
                 {/* End blog-img */}
                 <article className="article">
@@ -1063,7 +1101,7 @@ const News = () => {
                     <h2>Checkin TT Management App</h2>
                     <div className="media">
                       <div className="avatar">
-                        <img src="img/testimonial/team-2.jpg" alt="thumbnail" />
+                        <img src={kerwinImg} alt="thumbnail" />
                       </div>
                       <div className="media-body">
                         <label>BY KERWIN THOMPSON</label>
@@ -1091,6 +1129,13 @@ const News = () => {
                       Designed a robust file architecture for seamless user
                       interaction and optimal site performance.
                     </p>
+                    <a
+                      href="https://projectone.cyversify.com"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      View Website
+                    </a>
                   </div>
                   {/* End article content */}
                   <ul className="nav tag-cloud">
@@ -1128,7 +1173,7 @@ const News = () => {
       >
         <div>
           <button className="close-modal" onClick={toggleModalSIS}>
-            <img src="/img/cancel.svg" alt="close icon" />
+            <img src={cancel} alt="close icon" />
           </button>
           {/* End close icon */}
 
@@ -1136,7 +1181,7 @@ const News = () => {
             <div className="scrollable">
               <div className="blog-grid">
                 <div className="blog-img">
-                  <img src="img/blog/blog-2.jpg" alt="blog post"></img>
+                  <img src={image7} alt="blog post"></img>
                 </div>
                 {/* End blog-img */}
                 <article className="article">
@@ -1144,7 +1189,7 @@ const News = () => {
                     <h2>School Database Management App</h2>
                     <div className="media">
                       <div className="avatar">
-                        <img src="img/testimonial/team-2.jpg" alt="thumbnail" />
+                        <img src={kerwinImg} alt="thumbnail" />
                       </div>
                       <div className="media-body">
                         <label>BY KERWIN THOMPSON</label>
@@ -1173,6 +1218,13 @@ const News = () => {
                       Spearheaded code refactoring and database optimization for
                       improved site performance and maintainability.
                     </p>
+                    <a
+                      href="https://scholastica.cyversify.com"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      View Website
+                    </a>
                   </div>
                   {/* End article content */}
                   <ul className="nav tag-cloud">
@@ -1209,7 +1261,7 @@ const News = () => {
       >
         <div>
           <button className="close-modal" onClick={toggleModalEcom}>
-            <img src="/img/cancel.svg" alt="close icon" />
+            <img src={cancel} alt="close icon" />
           </button>
           {/* End close icon */}
 
@@ -1217,7 +1269,7 @@ const News = () => {
             <div className="scrollable">
               <div className="blog-grid">
                 <div className="blog-img">
-                  <img src="img/blog/blog-2.jpg" alt="blog post"></img>
+                  <img src={image8} alt="blog post"></img>
                 </div>
                 {/* End blog-img */}
                 <article className="article">
@@ -1225,7 +1277,7 @@ const News = () => {
                     <h2>Ecommerce Clothing Store</h2>
                     <div className="media">
                       <div className="avatar">
-                        <img src="img/testimonial/team-2.jpg" alt="thumbnail" />
+                        <img src={kerwinImg} alt="thumbnail" />
                       </div>
                       <div className="media-body">
                         <label>BY KERWIN THOMPSON</label>
@@ -1249,6 +1301,13 @@ const News = () => {
                     <p className="blockquote-footer">
                       Built T-shirt cusomization page
                     </p>
+                    <a
+                      href="http://estore.kerwindows.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      View Website
+                    </a>
                   </div>
                   {/* End article content */}
                   <ul className="nav tag-cloud">
