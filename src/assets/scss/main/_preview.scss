@@ -145,11 +145,13 @@
       font-size: 30px;
     }
     .theme-color {
-      color: $px-theme;
+      background-image: $px-theme-bckgrd;
+      -webkit-background-clip: text;
+      color: transparent;
     }
   }
   .tag {
-    background: #ff9301;
+    background: $px-theme-bckgrd;
     color: #fff;
   }
 }
@@ -157,7 +159,9 @@
   display: inline-block;
   background: #1c1d24;
   padding: 0 10px;
-  color: $px-theme;
+  background-image: $px-theme-bckgrd;
+  -webkit-background-clip: text;
+  color: transparent;
   border-radius: 4px;
   margin-bottom: 10px;
 }
@@ -182,7 +186,9 @@
   }
 
   .theme-color {
-    color: $px-theme;
+    background-image: $px-theme-bckgrd;
+    -webkit-background-clip: text;
+    color: transparent;
   }
   .dark-color {
     font-size: 17px;
@@ -266,7 +272,7 @@ section.testimonial,
   top: calc(50% - 65px);
   .toggler-btn {
     border-radius: 4px 0 0 4px;
-    background: $px-theme;
+    background: $px-theme-bckgrd;
     border: 2px solid $px-theme;
     color: #fff;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);

@@ -14,7 +14,9 @@
         color: $px-dark;
       }
       &:hover {
-        color: $px-theme;
+        background-image: $px-theme-bckgrd;
+        -webkit-background-clip: text;
+        color: transparent;
       }
     }
   }

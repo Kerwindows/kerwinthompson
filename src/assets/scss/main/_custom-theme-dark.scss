@@ -63,7 +63,9 @@
         color: rgba(255, 255, 255, 0.8);
       }
       .lead {
-        color: $px-theme;
+        background-image: $px-theme-bckgrd;
+        -webkit-background-clip: text;
+        color: transparent;
       }
       h6 {
         color: #c8c8cb;

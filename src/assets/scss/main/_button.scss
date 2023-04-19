@@ -15,17 +15,19 @@
   &.btn-outline {
     border: 1px solid $px-theme;
     &:hover {
-      background: $px-theme;
+      background: $px-theme-bckgrd;
       color: #fff;
     }
   }
   &.px-btn-theme {
-    background: $px-theme;
+    background: $px-theme-bckgrd;
     border: 1px solid $px-theme;
     color: #fff;
     &:hover {
       background: $px-white;
-      color: $px-theme;
+      background-image: $px-theme-bckgrd;
+      -webkit-background-clip: text;
+      color: transparent;
     }
   }
   &.px-btn-white {

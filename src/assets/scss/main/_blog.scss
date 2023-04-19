@@ -81,7 +81,7 @@
         font-weight: 500;
       }
       &:hover {
-        background: $px-theme;
+        background: $px-theme-bckgrd;
         border-color: $px-theme;
         color: $px-white;
       }
@@ -93,7 +93,7 @@
     }
     &.active {
       .page-link {
-        background: $px-theme;
+        background: $px-theme-bckgrd;
         border-color: $px-theme;
         color: $px-white;
       }
@@ -116,7 +116,7 @@
       background: $px-gray;
     }
     &:hover {
-      background: $px-theme;
+      background: $px-theme-bckgrd;
       color: $px-white;
     }
   }
@@ -152,7 +152,9 @@
       margin-bottom: 20px;
       a {
         text-transform: uppercase;
-        color: $px-theme;
+        background-image: $px-theme-bckgrd;
+        -webkit-background-clip: text;
+        color: transparent;
         border-bottom: 1px solid $px-theme;
       }
     }
@@ -183,7 +185,9 @@
         padding-left: 8px;
         label {
           font-weight: 600;
-          color: $px-theme;
+          background-image: $px-theme-bckgrd;
+          -webkit-background-clip: text;
+          color: transparent;
           margin: 0;
         }
         span {
@@ -215,7 +219,9 @@
       p {
         font-size: 20px;
         font-weight: 500;
-        color: $px-theme;
+        background-image: $px-theme-bckgrd;
+        -webkit-background-clip: text;
+        color: transparent;
         margin: 0;
       }
       .blockquote-footer {

@@ -42,7 +42,7 @@
       width: 45px;
       height: 45px;
       border-radius: 50%;
-      background: $px-theme;
+      background: $px-theme-bckgrd;
       position: absolute;
       top: -8px;
       left: -15px;
@@ -51,7 +51,7 @@
       animation: slide-both-side 4s infinite both;
 
       .theme-light & {
-        background: rgba($px-theme, 0.5);
+        background: $px-theme-bckgrd;
       }
       @include down-md {
         top: -4px;
@@ -117,7 +117,9 @@
       a {
         transition: 0.3s;
         &:hover {
-          color: $px-theme;
+          background-image: $px-theme-bckgrd;
+          -webkit-background-clip: text;
+          color: transparent;
         }
       }
     }
@@ -138,7 +140,7 @@
         }
         &:hover,
         &.active {
-          background: $px-theme;
+          background: $px-theme-bckgrd;
           a {
             .theme-light & {
               color: $px-white;
@@ -216,7 +218,9 @@
       text-transform: capitalize;
       margin-bottom: 15px;
       .theme-light & {
-        color: $px-theme;
+        background-image: $px-theme-bckgrd;
+        -webkit-background-clip: text;
+        color: transparent;
         line-height: 1.2;
       }
       @include down-sm {
@@ -385,7 +389,7 @@
       }
       &:hover {
         @include scale(1.1);
-        background: $px-theme;
+        background: $px-theme-bckgrd;
         color: $px-white;
       }
     }
@@ -451,7 +455,7 @@
     height: 200px;
     border-radius: 50%;
     z-index: -2;
-    background: $px-theme;
+    background: $px-theme-bckgrd;
     transition: 0.5s ease-in-out;
   }
   .icon {
@@ -626,7 +630,7 @@
       padding: 5px 10px;
       border-radius: 3px;
       color: $px-white;
-      background: $px-theme;
+      background: $px-theme-bckgrd;
       font-size: 12px;
       font-weight: 500;
     }
@@ -677,7 +681,7 @@
       position: relative;
       @include transition(ease all 0.55s);
       height: 10px;
-      background: $px-theme;
+      background: $px-theme-bckgrd;
     }
   }
 }
@@ -744,7 +748,9 @@
     i {
       width: 30px;
       text-align: center;
-      color: $px-theme;
+      background-image: $px-theme-bckgrd;
+      -webkit-background-clip: text;
+      color: transparent;
       font-size: 22px;
       font-weight: 600;
     }
