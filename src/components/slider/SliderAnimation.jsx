@@ -3,7 +3,7 @@ import TextLoop from "react-text-loop";
 import kerwin from "../../assets/img/slider/kerwin.png";
 
 const conctInfo = {
-  phone: "+1 786 679 6542",
+  phone: "(786) 679 6542",
   email: "kerwin@kerwindows.com",
 };
 
@@ -82,7 +82,7 @@ const Slider = () => {
                 >
                   <a
                     className="px-btn px-btn-white"
-                    href="file/Kerwin-Thompson-Resume.docx"
+                    href="files/Kerwin-Thompson-Resume.docx"
                     download
                   >
                     {sliderContent.btnText}
