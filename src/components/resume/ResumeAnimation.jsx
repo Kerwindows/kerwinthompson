@@ -3,18 +3,18 @@ import Skills from "../skills/Skills";
 
 const resumeContent = [
   {
-    jobPosition: `Sr. Full-Stack Engineer`,
+    jobPosition: `Software Engineer`,
     jobType: `Cyversify Limited | Remote`,
     jobDuration: `2020 - Present`,
     timeDuraton: `Part Time`,
     compnayName: "Cyversify",
-    jobDescription: `I spearheaded the UX design and development of a Progressive Web App (PWA) travel application for the startup company, Checkin Cyversify. Following the project's completion, I continued to contribute to two other major applications: a social networking web app integrated with an NFC-enabled digital business card using VCard technology, and a School Information Management Application. During this time, I employed technologies such as PHP, JavaScript, Ajax, and SQL.
+    jobDescription: `Spearheaded the UI and UX design and development of a Progressive Web App (PWA) travel application for the startup company, Checkin Cyversify. Following the project's completion, I continued to contribute to two other major applications: a social networking web app integrated with an NFC-enabled digital business card using VCard technology, and a School Information Management Application. During this time, I employed technologies such as PHP, JavaScript, Ajax, and SQL.
 
     This experience allowed me to gain invaluable hands-on expertise as a senior software developer and pursue a software development certification. This certification enabled me to enhance the company's standardization for quality assurance, ensuring an optimal experience for end users. Furthermore, I honed my skills in evaluating and prioritizing development stages to meet real-time implementation deadlines. As a result, my interpersonal, written, and oral communication skills have significantly improved.`,
   },
 
   {
-    jobPosition: `Systems Adminstrato`,
+    jobPosition: `Systems Adminstrator`,
     jobType: `Tech Support | Remote`,
     jobDuration: `Sep 2019 - Current`,
     timeDuraton: `Part Time`,
