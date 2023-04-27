@@ -14,18 +14,18 @@ const resumeContent = [
   {
     jobPosition: `Systems Adminstrator`,
     jobType: `Desktop Support`,
-    jobDuration: `August 2016 - Present`,
+    jobDuration: `August 2019 - Present`,
     timeDuraton: `Part Time`,
     compnayName: "Caribbean Union College",
     jobDescription: `Bridged the gap between education and IT support. Connected with faculty and staff to create a strong relationship between departments for overall increased computer literacy and connectivity. Oversee the school’s web-based infrastructure and develop programs that benefit students, faculty, and staff. Promoted digital bookkeeping, registration, and scheduling for increased productivity and drastically reduced waste. Active change agent directing the college toward web-based solutions and e-learning strategies.`,
   },
   {
-    jobPosition: `Front-End Developer`,
+    jobPosition: `Independant Contractor`,
     jobType: `Web Developer`,
-    jobDuration: `Sep 2016 - 2019`,
-    timeDuraton: `Full Time`,
-    compnayName: "Kpdelamp LLC",
-    jobDescription: `Developed a native WordPress plugin for Elegant Themes Divi Theme that uses CSS to manipulates the HTML DOM for mobile devices, making it fully customizible to the front end designer. Created documentation and licenscing feature to enable installation and upadtes. Worked closely with design team in creating layouts supported by the plugin. Resolve client issues via remote desktop support.`,
+    jobDuration: `Nov 2019 - Present`,
+    timeDuraton: `Seasonal`,
+    companyName: "Kodelamp LLC",
+    jobDescription: `As a WordPress developer and consultant, I spearheaded the development and management of WordPress websites for diverse clients. I developed a native WordPress plugin optimized for the Divi WordPress Page Builder, expertly configuring both back-end settings and front-end design for various themes. I provided valuable insights into security and optimization measures while working closely with the design team to create layouts supported by the plugin. Additionally, I resolved client issues via remote desktop support and created documentation and licensing features for easy installation and updates.`,
   },
 ];
 
@@ -36,14 +36,14 @@ const educatonContent = [
     instituteName: "University Hertfordshire",
   },
   {
-    passingYear: "2003-2005",
-    degreeTitle: "Adv. Dip in Electronics Technology",
-    instituteName: "The University of Trinidad and Tobago",
-  },
-  {
     passingYear: "2022-2023",
     degreeTitle: "Software Engineering Certification",
     instituteName: "Practicum US by Yandex",
+  },
+  {
+    passingYear: "2003-2005",
+    degreeTitle: "Adv. Dip in Electronics Technology",
+    instituteName: "The University of Trinidad and Tobago",
   },
 ];
 
