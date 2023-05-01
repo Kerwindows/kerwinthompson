@@ -79,20 +79,29 @@ const About = () => {
 
                 <div className="about-text">
                   <p>
-                    I was born and raised in the island of Trinidad and Tobago
-                    but I currently live in the USA. I love to code and create
-                    web application elements for amazing people like you. I was
-                    a teacher for nine years prior turning my passion into a
-                    career.
+                    I am Kerwin Thompson, a skilled software engineer with a
+                    background in education. I spent nine years as a
+                    professional teacher before transitioning into the field of
+                    software engineering. My specialization lies in full-stack
+                    development, and I am passionate about delivering seamless
+                    and engaging digital experiences for users. My expertise
+                    spans web app development, UX/UI design, and technical
+                    support, and I have worked on a diverse range of projects,
+                    including travel and social networking apps, as well as
+                    school information management systems.
                   </p>
                   <p>
-                    What can I say, I love coding. I'm a dedicated professional
-                    with over 5 years of experience in Full-Stack web
-                    development. I pay solid attention to detail and as a
-                    freelancer and an agency owner myself, I know what it takes
-                    to work closely with clients throughout the development
-                    processes for a truly personalized user experience. Let's
-                    network. New people bring new experiences.
+                    I consider myself a detail-oriented, dedicated professional
+                    who thrives on collaboration and networking with fellow
+                    developers and engineers. I believe that teamwork and
+                    community are vital for driving innovation and excellence.
+                    With a strong interest in antiquity, archaeology, and
+                    history, I am an enthusiastic, humorous, and sometimes
+                    moralistic individual who enjoys engaging in
+                    thought-provoking conversations. My curiosity and love for
+                    foreign places and languages constantly push me to expand my
+                    horizons, and I firmly believe that every experience in life
+                    offers an opportunity for growth and learning.
                   </p>
                 </div>
                 <div className="info-list">
