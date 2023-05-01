@@ -6,6 +6,7 @@ import team_1 from "../../assets/img/testimonial/team-1.jpg";
 import team_2 from "../../assets/img/testimonial/team-2.jpg";
 import team_3 from "../../assets/img/testimonial/team-3.jpg";
 import team_4 from "../../assets/img/testimonial/team-4.jpg";
+import team_5 from "../../assets/img/testimonial/team-5.jpg";
 
 export default function Testimonials() {
   const settings = {
@@ -60,6 +61,13 @@ export default function Testimonials() {
       desc: `Kerwin was a fabulous student. He always pushed through the challenges and brought up good questions whenever he needed to clear his path. He's good enough that now he's going the extra mile and helping students as one of our senior students (effectively a TA).`,
       reviewerName: "Phoenix Eliot",
       designation: "Practicum Tutor",
+      delayAnimation: "",
+    },
+    {
+      imageName: team_5,
+      desc: `I had the pleasure of working with Kerwin during their time in the Software Engineering program at Practicum. Kerwin's exceptional technological skills, leadership qualities, and eagerness to assist others made them stand out among their peers. As a Senior Student, Kerwin provided invaluable support and helped other students master complex concepts. I highly recommend Kerwin as a valuable asset to any company or organization.`,
+      reviewerName: "Julian Hernandez",
+      designation: "Senior Tutor",
       delayAnimation: "",
     },
   ];
