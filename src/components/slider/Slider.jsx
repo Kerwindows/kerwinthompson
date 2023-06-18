@@ -1,17 +1,17 @@
-import React from "react";
-import TextLoop from "react-text-loop";
+import React from 'react';
+import TextLoop from 'react-text-loop';
 
 const conctInfo = {
-  phone: "+04 6545-9535-6515",
-  email: " Kerwinbi-designer@domain.com",
+  phone: '+04 6545-9535-6515',
+  email: ' Kerwinbi-designer@domain.com',
 };
 
 const sliderContent = {
-  name: "Kerwinbi Gadot",
+  name: 'Kerwinbi Gadot',
   description: `I design and develop services for customers of all sizes,
   specializing in creating stylish, modern websites, web
   services and online stores.`,
-  btnText: " Donwload CV",
+  btnText: ' Donwload CV',
 };
 
 const Slider = () => {
@@ -47,9 +47,9 @@ const Slider = () => {
                 <h1 className="font-alt">{sliderContent.name}</h1>
                 <TextLoop>
                   <p className="loop-text lead">Full-stack Developer</p>
-                  <p className="loop-text lead"> UI/UX Designer</p>
-                  <p className="loop-text lead"> App Developer</p>
-                </TextLoop>{" "}
+                  <p className="loop-text lead">UI/UX Designer</p>
+                  <p className="loop-text lead">App Developer</p>
+                </TextLoop>{' '}
                 <p className="desc">{sliderContent.description}</p>
                 <div className="mt-4">
                   <a
@@ -69,7 +69,7 @@ const Slider = () => {
           className="hb-me"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/slider/home-banner.png"
+              process.env.PUBLIC_URL + 'img/slider/home-banner.png'
             })`,
           }}
         ></div>

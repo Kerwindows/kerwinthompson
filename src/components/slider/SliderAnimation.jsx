@@ -1,24 +1,24 @@
-import React from "react";
-import TextLoop from "react-text-loop";
-import kerwin from "../../assets/img/slider/kerwin.png";
+import React from 'react';
+import TextLoop from 'react-text-loop';
+import kerwin from '../../assets/img/slider/kerwin.png';
 
 const conctInfo = {
-  phone: "(786) 679 6542",
-  email: "kerwin@kerwindows.com",
+  phone: '(786) 679 6542',
+  email: 'kerwin@kerwindows.com',
 };
 
 const sliderContent = {
-  name: "Kerwin Thompson",
-  designation: "Software Engineer",
+  name: 'Kerwin Thompson',
+  designation: 'Software Engineer',
   description: `Design obsessed front-end engineer with a passion for creating frictionless online experiences.`,
-  btnText: " Donwload CV",
+  btnText: ' Donwload CV',
 };
 
 const Slider = () => {
   return (
     <>
       {/*  Home Banner */}
-      <section style={{ background: "#000" }} id="home" className="home-banner">
+      <section style={{ background: '#000' }} id="home" className="home-banner">
         <div className="hb-top-fixed d-flex">
           <div className="hb-info">
             <a href="tel:+17866796542">{conctInfo.phone}</a>
@@ -61,8 +61,8 @@ const Slider = () => {
                 >
                   <TextLoop>
                     <p className="loop-text lead">Software Engineer</p>
-                    <p className="loop-text lead">Fullstack Developer</p>
                     <p className="loop-text lead">UI/UX Designer</p>
+                    <p className="loop-text lead">Desktop Support Technician</p>
                   </TextLoop>
                 </div>
 
@@ -80,13 +80,13 @@ const Slider = () => {
                   data-aos-duration="1200"
                   data-aos-delay="400"
                 >
-                  <a
+                  {/* <a
                     className="px-btn px-btn-white"
                     href="files/Kerwin-Thompson-Resume.docx"
                     download
                   >
                     {sliderContent.btnText}
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

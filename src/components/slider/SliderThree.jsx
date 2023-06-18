@@ -1,13 +1,13 @@
-import React from "react";
-import TextLoop from "react-text-loop";
-import Particles from "react-tsparticles";
+import React from 'react';
+import TextLoop from 'react-text-loop';
+import Particles from 'react-tsparticles';
 
 const sliderContent = {
-  name: "Reyeila Arifia",
+  name: 'Kerwin Thompson',
   description: `I design and develop services for customers of all sizes,
   specializing in creating stylish, modern websites, web
   services and online stores.`,
-  btnText: "DOWNLOAD CV",
+  btnText: 'DOWNLOAD CV',
 };
 
 const SliderTwo = () => {
@@ -19,7 +19,7 @@ const SliderTwo = () => {
         className="home-banner home-banner-two"
         style={{
           backgroundImage: `url(${
-            process.env.PUBLIC_URL + "img/slider/home-banner-3.jpg"
+            process.env.PUBLIC_URL + 'img/slider/home-banner-3.jpg'
           })`,
         }}
       >
@@ -37,15 +37,15 @@ const SliderTwo = () => {
               },
               fpsLimit: 70,
               interactivity: {
-                detectsOn: "canvas",
+                detectsOn: 'canvas',
                 events: {
                   onClick: {
                     enable: false,
-                    mode: "push",
+                    mode: 'push',
                   },
                   onHover: {
                     enable: false,
-                    mode: "repulse",
+                    mode: 'repulse',
                   },
                   resize: true,
                 },
@@ -67,10 +67,10 @@ const SliderTwo = () => {
               },
               particles: {
                 color: {
-                  value: "#ddd",
+                  value: '#ddd',
                 },
                 links: {
-                  color: "#ffffff",
+                  color: '#ffffff',
                   distance: 150,
                   enable: true,
                   opacity: 0.5,
@@ -80,9 +80,9 @@ const SliderTwo = () => {
                   enable: true,
                 },
                 move: {
-                  direction: "none",
+                  direction: 'none',
                   enable: true,
-                  outMode: "bounce",
+                  outMode: 'bounce',
                   random: false,
                   speed: 2,
                   straight: false,
@@ -98,7 +98,7 @@ const SliderTwo = () => {
                   value: 0.5,
                 },
                 shape: {
-                  type: "circle",
+                  type: 'circle',
                 },
                 size: {
                   random: true,
