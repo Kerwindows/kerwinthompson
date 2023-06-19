@@ -4,16 +4,16 @@ import Skills from '../skills/Skills';
 const resumeContent = [
   {
     jobPosition: `Software Developer`,
-    jobType: `Cyversify Limited | Remote`,
+    jobType: `Full-stack | Remote`,
     jobDuration: `2020 - Present`,
     timeDuraton: `Contract`,
-    compnayName: 'Cyversify',
+    compnayName: 'Cyversify Ltd',
     jobDescription: `Significantly contributed to various custom web-based applications by actively participating in all stages of the Software Development Life Cycle (SDLC). This involves rigorous requirements analysis, Agile SCRUM ceremonies, reviews and retrospectives, solution diagrams, flowcharts, and other core solution documents making it accessible for cross-functional teams and clients. Writing clean, scalable code based on requirements and design. Excelling at deploying and debugging applications while performing unit testing to maintain quality control. Regular refactoring and updates have been a key strategy in improving existing applications. Technologies employed during these experiences include JavaScript, React, NodeJS, PHP, SQL, Ajax, RESTful API, and Google Cloud, making me adept at both frontend and backend development, including aspects like application architecture, database selection and creation, and UI/UX design and logic.`,
   },
 
   {
     jobPosition: `Systems Adminstrator`,
-    jobType: `Tech Support | Remote`,
+    jobType: `Web Developer | Remote`,
     jobDuration: `2020 - Present`,
     timeDuraton: `Contract`,
     compnayName: 'Caribbean Union College',
