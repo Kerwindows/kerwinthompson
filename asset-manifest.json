@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kerwinthompson/static/css/main.e947ef48.css",
-    "main.js": "/kerwinthompson/static/js/main.d049cd0f.js",
+    "main.js": "/kerwinthompson/static/js/main.ea093553.js",
     "static/js/27.0a2de4d1.chunk.js": "/kerwinthompson/static/js/27.0a2de4d1.chunk.js",
     "static/media/cuc.edu.tt.png": "/kerwinthompson/static/media/cuc.edu.tt.e0b6a78b92156f591e92.png",
     "static/media/kerwin.png": "/kerwinthompson/static/media/kerwin.74b3959853352e771865.png",
@@ -74,6 +74,6 @@
   },
   "entrypoints": [
     "static/css/main.e947ef48.css",
-    "static/js/main.d049cd0f.js"
+    "static/js/main.ea093553.js"
   ]
 }
