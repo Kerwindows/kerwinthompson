@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/kerwinthompson/static/css/main.3f24140d.css",
-    "main.js": "/kerwinthompson/static/js/main.0da899df.js",
+    "main.js": "/kerwinthompson/static/js/main.bfa57712.js",
     "static/js/27.0a2de4d1.chunk.js": "/kerwinthompson/static/js/27.0a2de4d1.chunk.js",
     "static/media/cuc.edu.tt.png": "/kerwinthompson/static/media/cuc.edu.tt.e0b6a78b92156f591e92.png",
-    "static/media/kerwin.png": "/kerwinthompson/static/media/kerwin.74b3959853352e771865.png",
     "static/media/divimobifirst-landingpage.png": "/kerwinthompson/static/media/divimobifirst-landingpage.fd0e923001cced831334.png",
     "static/media/iamshurnelle.com.jpg": "/kerwinthompson/static/media/iamshurnelle.com.2158e6befa34fbc4019d.jpg",
     "static/media/trailer-view-mobile.png": "/kerwinthompson/static/media/trailer-view-mobile.525e2b9ac48b069ce1f4.png",
     "static/media/trailer-view-full.png": "/kerwinthompson/static/media/trailer-view-full.c685cbd5f3dd95ed0125.png",
+    "static/media/kerwin.png": "/kerwinthompson/static/media/kerwin.93c66722bc045881ca74.png",
     "static/media/trailer-view-luck.png": "/kerwinthompson/static/media/trailer-view-luck.62ee0128043d4b233162.png",
     "static/media/trailer-view-wick.png": "/kerwinthompson/static/media/trailer-view-wick.babbca92fcd66ca4f629.png",
     "static/media/trailer-view-hart.png": "/kerwinthompson/static/media/trailer-view-hart.404468f6000d9aa6b11a.png",
-    "static/media/kerwin.jpg": "/kerwinthompson/static/media/kerwin.aa36804afbe322346907.jpg",
+    "static/media/kerwin.jpg": "/kerwinthompson/static/media/kerwin.25eb6a461faf15ee714b.jpg",
     "static/media/et-line.svg": "/kerwinthompson/static/media/et-line.3e441a4587befc7eeb4f.svg",
     "static/media/trailer-view-discover.png": "/kerwinthompson/static/media/trailer-view-discover.e029ebe48e64ffc27dfb.png",
     "static/media/trailer-view-boots.png": "/kerwinthompson/static/media/trailer-view-boots.c792577ced463edfc620.png",
@@ -74,6 +74,6 @@
   },
   "entrypoints": [
     "static/css/main.3f24140d.css",
-    "static/js/main.0da899df.js"
+    "static/js/main.bfa57712.js"
   ]
 }
