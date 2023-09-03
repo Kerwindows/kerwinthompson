@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kerwinthompson/static/css/main.e947ef48.css",
-    "main.js": "/kerwinthompson/static/js/main.ea093553.js",
+    "main.css": "/kerwinthompson/static/css/main.3f24140d.css",
+    "main.js": "/kerwinthompson/static/js/main.645761b5.js",
     "static/js/27.0a2de4d1.chunk.js": "/kerwinthompson/static/js/27.0a2de4d1.chunk.js",
     "static/media/cuc.edu.tt.png": "/kerwinthompson/static/media/cuc.edu.tt.e0b6a78b92156f591e92.png",
     "static/media/kerwin.png": "/kerwinthompson/static/media/kerwin.74b3959853352e771865.png",
@@ -13,7 +13,7 @@
     "static/media/trailer-view-wick.png": "/kerwinthompson/static/media/trailer-view-wick.babbca92fcd66ca4f629.png",
     "static/media/trailer-view-hart.png": "/kerwinthompson/static/media/trailer-view-hart.404468f6000d9aa6b11a.png",
     "static/media/kerwin.jpg": "/kerwinthompson/static/media/kerwin.aa36804afbe322346907.jpg",
-    "static/media/et-line.svg": "/kerwinthompson/static/media/et-line.613c7311d2d5a1dd7e49.svg",
+    "static/media/et-line.svg": "/kerwinthompson/static/media/et-line.3e441a4587befc7eeb4f.svg",
     "static/media/trailer-view-discover.png": "/kerwinthompson/static/media/trailer-view-discover.e029ebe48e64ffc27dfb.png",
     "static/media/trailer-view-boots.png": "/kerwinthompson/static/media/trailer-view-boots.c792577ced463edfc620.png",
     "static/media/estore-wearpositive.jpg": "/kerwinthompson/static/media/estore-wearpositive.85fd709ad2bd27f2ffdf.jpg",
@@ -68,12 +68,12 @@
     "static/media/slick.svg": "/kerwinthompson/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/kerwinthompson/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/kerwinthompson/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/cancel.svg": "/kerwinthompson/static/media/cancel.5bec4f69e1bbfff50fdfacd4eaff052a.svg",
+    "static/media/cancel.svg": "/kerwinthompson/static/media/cancel.17825c74c3c6b6934429010ee3f913fd.svg",
     "static/media/slick.woff": "/kerwinthompson/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/kerwinthompson/index.html"
   },
   "entrypoints": [
-    "static/css/main.e947ef48.css",
-    "static/js/main.ea093553.js"
+    "static/css/main.3f24140d.css",
+    "static/js/main.645761b5.js"
   ]
 }
