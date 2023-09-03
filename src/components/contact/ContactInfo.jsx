@@ -4,16 +4,16 @@ const ContactInfo = () => {
   return (
     <>
       <div className="contact-info">
-        <h4>What’s your story? Get in touch</h4>
+        <h4>Get in touch</h4>
         <p>
-          Always available for hire if the right company comes along, Feel free
-          to contact me.
+          If I am on your team, I am committed to winning. Feel free to reach
+          out to me.
         </p>
 
         <ul>
           <li className="media">
             <i className="icon icon-map"></i>
-            <span className="media-body">Mustang Way , Orlando FL 32810.</span>
+            <span className="media-body">Clarksville , TN 37042.</span>
           </li>
           {/* End li */}
 
@@ -25,7 +25,7 @@ const ContactInfo = () => {
 
           <li className="media">
             <i className="icon icon-phone"></i>
-            <span className="media-body">+1 786 679 6542</span>
+            <span className="media-body">+1 (786) 679 6542</span>
           </li>
           {/* End li */}
         </ul>

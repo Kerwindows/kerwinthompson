@@ -22,7 +22,7 @@ const Slider = () => {
         <div className="hb-top-fixed d-flex">
           <div className="hb-info">
             <a href="tel:+17866796542">{conctInfo.phone}</a>
-            <a href="mailto:mail%20to:kerwin@kerwindows.com,com">
+            <a href="mailto:kerwin@kerwindows.com">
               {conctInfo.email}
             </a>
           </div>
@@ -61,8 +61,8 @@ const Slider = () => {
                 >
                   <TextLoop>
                     <p className="loop-text lead">Software Engineer</p>
-                    <p className="loop-text lead">UI/UX Designer</p>
-                    <p className="loop-text lead">Desktop Support Technician</p>
+                    <p className="loop-text lead">UI/UX/Graphic Designer</p>
+                    <p className="loop-text lead">Teacher</p>
                   </TextLoop>
                 </div>
 

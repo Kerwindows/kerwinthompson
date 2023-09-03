@@ -79,14 +79,14 @@ const About = () => {
 
                 <div className="about-text">
                   <p>
-                    I am Kerwin Thompson, a skilled software engineer with a
+                    I consider myself a skilled software engineer with a
                     background in education. I spent nine years as a
                     professional teacher before transitioning into the field of
                     software engineering. My specialization lies in full-stack
                     development, and I am passionate about delivering seamless
                     and engaging digital experiences for users. My expertise
-                    spans web app development, UX/UI design, and technical
-                    support, and I have worked on a diverse range of projects,
+                    spans web app development, UX/UI design, and Information Systems.
+                    I have worked on a diverse range of projects,
                     including travel and social networking apps, as well as
                     school information management systems.
                   </p>
@@ -104,25 +104,17 @@ const About = () => {
                     offers an opportunity for growth and learning.
                   </p>
                 </div>
-                <div className="info-list">
+                {/* <div className="info-list">
                   <div className="row">
                     <div className="col-sm-6">
                       <ul>
                         <li>
                           <label>Name: </label>
                           <span>Kerwin Thompson</span>
-                        </li>
-                        <li>
-                          <label>Birthday: </label>
-                          <span>21st Dec 1984</span>
-                        </li>
-                        <li>
-                          <label>Age: </label>
-                          <span>37 years</span>
-                        </li>
+                        </li>                       
                         <li>
                           <label>Address: </label>
-                          <span>Orlando, FL</span>
+                          <span>Clarksville, TN</span>
                         </li>
                       </ul>
                     </div>
@@ -136,18 +128,10 @@ const About = () => {
                           <label>Email: </label>
                           <span>kerwindows@gmail.com</span>
                         </li>
-                        <li>
-                          <label>GitHub: </label>
-                          <span>kerwindows</span>
-                        </li>
-                        <li>
-                          <label>Freelance: </label>
-                          <span>Available</span>
-                        </li>
                       </ul>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             {/* End col */}
